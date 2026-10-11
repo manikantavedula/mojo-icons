@@ -43,8 +43,7 @@ preview.html    a contact sheet of every icon
 ## Releasing
 
 Nothing is published by hand. When pull requests with changesets reach `main`, the Release workflow opens a
-**Version Packages** pull request that raises the version and writes `CHANGELOG.md`. Merging it publishes to npm
-(with provenance). The apps get the new version through Dependabot.
+**Version Packages** pull request that raises the version and writes `CHANGELOG.md`. Merging it publishes to npm The apps get the new version through Dependabot.
 
 Needs once: the `axismojo` organisation on npmjs.com, and an `NPM_TOKEN` repository secret (a granular token
 that can publish `@axismojo/icons`).
