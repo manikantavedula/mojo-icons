@@ -14,6 +14,13 @@
     "Ellipsis": "MoreHorizontal",
     "EllipsisVertical": "MoreVertical",
     "LoaderCircle": "Loader2",
-    "UserRoundCheck": "UserCheck"
+    "UserRoundCheck": "UserCheck",
+    "TreeDeciduous": "Tree",
+    "LocateFixed": "Locate",
+    "Storefront": "Store",
+    "CheckIn": "MapPinCheck",
+    "Broadcast": "RadioTower",
+    "Footfall": "Footprints",
+    "Throw": "Send"
   }
 }
