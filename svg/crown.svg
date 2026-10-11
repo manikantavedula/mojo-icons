@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M3.63 8.19Q3.5 7.5 3.96 8.02L7.74 12.3Q8 12.6 8.18 12.24L11.69 5.13Q12 4.5 12.31 5.13L15.82 12.24Q16 12.6 16.26 12.3L20.04 8.02Q20.5 7.5 20.37 8.19L18.77 16.62Q18.6 17.5 17.7 17.5L6.3 17.5Q5.4 17.5 5.23 16.62z"/>
+  <path d="M6 21h12"/>
+  <circle cx="12" cy="14" r="1.6" fill="var(--mojo-accent, currentColor)" stroke="none"/>
+</svg>

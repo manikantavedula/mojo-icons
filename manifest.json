@@ -1,6 +1,6 @@
 {
   "name": "@axismojo/icons",
-  "count": 349,
+  "count": 383,
   "icons": [
     {
       "name": "Activity",
@@ -90,6 +90,11 @@
     {
       "name": "Attendance",
       "file": "svg/attendance.svg",
+      "aliases": []
+    },
+    {
+      "name": "Audience",
+      "file": "svg/audience.svg",
       "aliases": []
     },
     {
@@ -213,6 +218,11 @@
       "aliases": []
     },
     {
+      "name": "Boost",
+      "file": "svg/boost.svg",
+      "aliases": []
+    },
+    {
       "name": "Bot",
       "file": "svg/bot.svg",
       "aliases": []
@@ -310,6 +320,11 @@
     {
       "name": "Camera",
       "file": "svg/camera.svg",
+      "aliases": []
+    },
+    {
+      "name": "Catch",
+      "file": "svg/catch.svg",
       "aliases": []
     },
     {
@@ -503,6 +518,11 @@
       "aliases": []
     },
     {
+      "name": "Corner",
+      "file": "svg/corner.svg",
+      "aliases": []
+    },
+    {
       "name": "Cpu",
       "file": "svg/cpu.svg",
       "aliases": []
@@ -510,6 +530,16 @@
     {
       "name": "CreditCard",
       "file": "svg/credit-card.svg",
+      "aliases": []
+    },
+    {
+      "name": "Crowd",
+      "file": "svg/crowd.svg",
+      "aliases": []
+    },
+    {
+      "name": "Crown",
+      "file": "svg/crown.svg",
       "aliases": []
     },
     {
@@ -658,8 +688,35 @@
       "aliases": []
     },
     {
+      "name": "Footprints",
+      "file": "svg/footprints.svg",
+      "aliases": [
+        "Footfall"
+      ]
+    },
+    {
       "name": "Frown",
       "file": "svg/frown.svg",
+      "aliases": []
+    },
+    {
+      "name": "FruitBud",
+      "file": "svg/fruit-bud.svg",
+      "aliases": []
+    },
+    {
+      "name": "FruitFallen",
+      "file": "svg/fruit-fallen.svg",
+      "aliases": []
+    },
+    {
+      "name": "FruitRipe",
+      "file": "svg/fruit-ripe.svg",
+      "aliases": []
+    },
+    {
+      "name": "FruitRipening",
+      "file": "svg/fruit-ripening.svg",
       "aliases": []
     },
     {
@@ -670,6 +727,11 @@
     {
       "name": "Gem",
       "file": "svg/gem.svg",
+      "aliases": []
+    },
+    {
+      "name": "Gift",
+      "file": "svg/gift.svg",
       "aliases": []
     },
     {
@@ -702,6 +764,11 @@
     {
       "name": "Hand",
       "file": "svg/hand.svg",
+      "aliases": []
+    },
+    {
+      "name": "Happening",
+      "file": "svg/happening.svg",
       "aliases": []
     },
     {
@@ -772,6 +839,11 @@
     {
       "name": "Info",
       "file": "svg/info.svg",
+      "aliases": []
+    },
+    {
+      "name": "Jamun",
+      "file": "svg/jamun.svg",
       "aliases": []
     },
     {
@@ -887,6 +959,13 @@
       ]
     },
     {
+      "name": "Locate",
+      "file": "svg/locate.svg",
+      "aliases": [
+        "LocateFixed"
+      ]
+    },
+    {
       "name": "LockKeyhole",
       "file": "svg/lock-keyhole.svg",
       "aliases": []
@@ -907,6 +986,11 @@
       "aliases": []
     },
     {
+      "name": "Loop",
+      "file": "svg/loop.svg",
+      "aliases": []
+    },
+    {
       "name": "MailCheck",
       "file": "svg/mail-check.svg",
       "aliases": []
@@ -924,6 +1008,28 @@
     {
       "name": "Mails",
       "file": "svg/mails.svg",
+      "aliases": []
+    },
+    {
+      "name": "MapPinArea",
+      "file": "svg/map-pin-area.svg",
+      "aliases": []
+    },
+    {
+      "name": "MapPinCheck",
+      "file": "svg/map-pin-check.svg",
+      "aliases": [
+        "CheckIn"
+      ]
+    },
+    {
+      "name": "MapPinOff",
+      "file": "svg/map-pin-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "MapPinPlus",
+      "file": "svg/map-pin-plus.svg",
       "aliases": []
     },
     {
@@ -1063,6 +1169,11 @@
     {
       "name": "Music",
       "file": "svg/music.svg",
+      "aliases": []
+    },
+    {
+      "name": "Navigation",
+      "file": "svg/navigation.svg",
       "aliases": []
     },
     {
@@ -1253,6 +1364,11 @@
       "aliases": []
     },
     {
+      "name": "Points",
+      "file": "svg/points.svg",
+      "aliases": []
+    },
+    {
       "name": "Power",
       "file": "svg/power.svg",
       "aliases": []
@@ -1276,6 +1392,18 @@
       "name": "QrCode",
       "file": "svg/qr-code.svg",
       "aliases": []
+    },
+    {
+      "name": "Radar",
+      "file": "svg/radar.svg",
+      "aliases": []
+    },
+    {
+      "name": "RadioTower",
+      "file": "svg/radio-tower.svg",
+      "aliases": [
+        "Broadcast"
+      ]
     },
     {
       "name": "Radio",
@@ -1318,8 +1446,18 @@
       "aliases": []
     },
     {
+      "name": "RewardLock",
+      "file": "svg/reward-lock.svg",
+      "aliases": []
+    },
+    {
       "name": "Rocket",
       "file": "svg/rocket.svg",
+      "aliases": []
+    },
+    {
+      "name": "Roots",
+      "file": "svg/roots.svg",
       "aliases": []
     },
     {
@@ -1338,6 +1476,11 @@
       "aliases": []
     },
     {
+      "name": "Sapling",
+      "file": "svg/sapling.svg",
+      "aliases": []
+    },
+    {
       "name": "Save",
       "file": "svg/save.svg",
       "aliases": []
@@ -1345,6 +1488,11 @@
     {
       "name": "ScanFace",
       "file": "svg/scan-face.svg",
+      "aliases": []
+    },
+    {
+      "name": "ScanQrCode",
+      "file": "svg/scan-qr-code.svg",
       "aliases": []
     },
     {
@@ -1385,7 +1533,9 @@
     {
       "name": "Send",
       "file": "svg/send.svg",
-      "aliases": []
+      "aliases": [
+        "Throw"
+      ]
     },
     {
       "name": "ServerCog",
@@ -1518,9 +1668,21 @@
       "aliases": []
     },
     {
+      "name": "Stamp",
+      "file": "svg/stamp.svg",
+      "aliases": []
+    },
+    {
       "name": "Star",
       "file": "svg/star.svg",
       "aliases": []
+    },
+    {
+      "name": "Store",
+      "file": "svg/store.svg",
+      "aliases": [
+        "Storefront"
+      ]
     },
     {
       "name": "Student",
@@ -1583,6 +1745,11 @@
       "aliases": []
     },
     {
+      "name": "Ticket",
+      "file": "svg/ticket.svg",
+      "aliases": []
+    },
+    {
       "name": "TimerReset",
       "file": "svg/timer-reset.svg",
       "aliases": []
@@ -1608,6 +1775,13 @@
       "aliases": []
     },
     {
+      "name": "Tree",
+      "file": "svg/tree.svg",
+      "aliases": [
+        "TreeDeciduous"
+      ]
+    },
+    {
       "name": "TrendingDown",
       "file": "svg/trending-down.svg",
       "aliases": []
@@ -1627,6 +1801,11 @@
     {
       "name": "Trophy",
       "file": "svg/trophy.svg",
+      "aliases": []
+    },
+    {
+      "name": "Twig",
+      "file": "svg/twig.svg",
       "aliases": []
     },
     {
@@ -1703,6 +1882,11 @@
     {
       "name": "Video",
       "file": "svg/video.svg",
+      "aliases": []
+    },
+    {
+      "name": "Viewfinder",
+      "file": "svg/viewfinder.svg",
       "aliases": []
     },
     {
@@ -1819,6 +2003,8 @@
     "AtomIcon",
     "Attendance",
     "AttendanceIcon",
+    "Audience",
+    "AudienceIcon",
     "AudioLines",
     "AudioLinesIcon",
     "AuditLog",
@@ -1867,6 +2053,8 @@
     "BookXIcon",
     "Bookmark",
     "BookmarkIcon",
+    "Boost",
+    "BoostIcon",
     "Bot",
     "BotIcon",
     "Braces",
@@ -1875,6 +2063,8 @@
     "BrainIcon",
     "Briefcase",
     "BriefcaseIcon",
+    "Broadcast",
+    "BroadcastIcon",
     "Bug",
     "BugIcon",
     "Building",
@@ -1907,6 +2097,8 @@
     "CalendarXIcon",
     "Camera",
     "CameraIcon",
+    "Catch",
+    "CatchIcon",
     "Certificate",
     "CertificateIcon",
     "ChatBubble",
@@ -1917,6 +2109,8 @@
     "CheckCircle2",
     "CheckCircle2Icon",
     "CheckIcon",
+    "CheckIn",
+    "CheckInIcon",
     "ChevronDown",
     "ChevronDownIcon",
     "ChevronLeft",
@@ -1981,10 +2175,16 @@
     "ContactIcon",
     "Copy",
     "CopyIcon",
+    "Corner",
+    "CornerIcon",
     "Cpu",
     "CpuIcon",
     "CreditCard",
     "CreditCardIcon",
+    "Crowd",
+    "CrowdIcon",
+    "Crown",
+    "CrownIcon",
     "Database",
     "DatabaseIcon",
     "Dialpad",
@@ -2047,12 +2247,26 @@
     "FolderOpenIcon",
     "FolderPlus",
     "FolderPlusIcon",
+    "Footfall",
+    "FootfallIcon",
+    "Footprints",
+    "FootprintsIcon",
     "Frown",
     "FrownIcon",
+    "FruitBud",
+    "FruitBudIcon",
+    "FruitFallen",
+    "FruitFallenIcon",
+    "FruitRipe",
+    "FruitRipeIcon",
+    "FruitRipening",
+    "FruitRipeningIcon",
     "Gauge",
     "GaugeIcon",
     "Gem",
     "GemIcon",
+    "Gift",
+    "GiftIcon",
     "GitBranch",
     "GitBranchIcon",
     "Globe",
@@ -2067,6 +2281,8 @@
     "HandCoins",
     "HandCoinsIcon",
     "HandIcon",
+    "Happening",
+    "HappeningIcon",
     "Hash",
     "HashIcon",
     "Headphones",
@@ -2097,6 +2313,8 @@
     "IndianRupeeIcon",
     "Info",
     "InfoIcon",
+    "Jamun",
+    "JamunIcon",
     "KanbanSquare",
     "KanbanSquareIcon",
     "Key",
@@ -2143,6 +2361,10 @@
     "Loader2Icon",
     "LoaderCircle",
     "LoaderCircleIcon",
+    "Locate",
+    "LocateFixed",
+    "LocateFixedIcon",
+    "LocateIcon",
     "Lock",
     "LockIcon",
     "LockKeyhole",
@@ -2151,6 +2373,8 @@
     "LogInIcon",
     "LogOut",
     "LogOutIcon",
+    "Loop",
+    "LoopIcon",
     "Mail",
     "MailCheck",
     "MailCheckIcon",
@@ -2162,7 +2386,15 @@
     "Map",
     "MapIcon",
     "MapPin",
+    "MapPinArea",
+    "MapPinAreaIcon",
+    "MapPinCheck",
+    "MapPinCheckIcon",
     "MapPinIcon",
+    "MapPinOff",
+    "MapPinOffIcon",
+    "MapPinPlus",
+    "MapPinPlusIcon",
     "Maximize",
     "MaximizeIcon",
     "Megaphone",
@@ -2213,6 +2445,8 @@
     "MoreVerticalIcon",
     "Music",
     "MusicIcon",
+    "Navigation",
+    "NavigationIcon",
     "Network",
     "NetworkIcon",
     "Newspaper",
@@ -2287,6 +2521,8 @@
     "PlugZapIcon",
     "Plus",
     "PlusIcon",
+    "Points",
+    "PointsIcon",
     "Power",
     "PowerIcon",
     "Presentation",
@@ -2297,8 +2533,12 @@
     "PuzzleIcon",
     "QrCode",
     "QrCodeIcon",
+    "Radar",
+    "RadarIcon",
     "Radio",
     "RadioIcon",
+    "RadioTower",
+    "RadioTowerIcon",
     "Receipt",
     "ReceiptIcon",
     "ReceiptIndianRupee",
@@ -2313,18 +2553,26 @@
     "RepeatIcon",
     "ReportCard",
     "ReportCardIcon",
+    "RewardLock",
+    "RewardLockIcon",
     "Rocket",
     "RocketIcon",
+    "Roots",
+    "RootsIcon",
     "RotateCcw",
     "RotateCcwIcon",
     "RotateCw",
     "RotateCwIcon",
     "Route",
     "RouteIcon",
+    "Sapling",
+    "SaplingIcon",
     "Save",
     "SaveIcon",
     "ScanFace",
     "ScanFaceIcon",
+    "ScanQrCode",
+    "ScanQrCodeIcon",
     "School",
     "SchoolIcon",
     "Scissors",
@@ -2393,8 +2641,14 @@
     "SproutIcon",
     "Square",
     "SquareIcon",
+    "Stamp",
+    "StampIcon",
     "Star",
     "StarIcon",
+    "Store",
+    "StoreIcon",
+    "Storefront",
+    "StorefrontIcon",
     "Student",
     "StudentIcon",
     "Sun",
@@ -2415,10 +2669,14 @@
     "TeacherIcon",
     "Terminal",
     "TerminalIcon",
+    "Throw",
+    "ThrowIcon",
     "ThumbsDown",
     "ThumbsDownIcon",
     "ThumbsUp",
     "ThumbsUpIcon",
+    "Ticket",
+    "TicketIcon",
     "Timer",
     "TimerIcon",
     "TimerReset",
@@ -2429,6 +2687,10 @@
     "ToggleRightIcon",
     "Trash2",
     "Trash2Icon",
+    "Tree",
+    "TreeDeciduous",
+    "TreeDeciduousIcon",
+    "TreeIcon",
     "TrendingDown",
     "TrendingDownIcon",
     "TrendingUp",
@@ -2437,6 +2699,8 @@
     "TriangleAlertIcon",
     "Trophy",
     "TrophyIcon",
+    "Twig",
+    "TwigIcon",
     "Umbrella",
     "UmbrellaIcon",
     "Undo2",
@@ -2473,6 +2737,8 @@
     "UsersRoundIcon",
     "Video",
     "VideoIcon",
+    "Viewfinder",
+    "ViewfinderIcon",
     "Voicemail",
     "VoicemailIcon",
     "Volume",
