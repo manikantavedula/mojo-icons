@@ -5,6 +5,8 @@ name: Release
 on:
   push:
     branches: [main]
+  # run it again by hand (Actions → Release → Run workflow), e.g. after adding the NPM_TOKEN secret
+  workflow_dispatch:
 
 concurrency: release-${{ github.ref }}
 
