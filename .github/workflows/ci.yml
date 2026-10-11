@@ -22,5 +22,5 @@ jobs:
       - run: npm run build
       # the generated src/ must be committed as built from svg/
       - run: git diff --exit-code -- src manifest.json
-      - if: github.event_name == 'pull_request'
+      - if: github.event_name == 'pull_request' && !startsWith(github.head_ref, 'changeset-release/')
         run: npx changeset status --since=origin/main
