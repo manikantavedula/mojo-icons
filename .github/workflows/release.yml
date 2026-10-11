@@ -1,5 +1,5 @@
 # On main: if there are pending changesets, open (or update) the "Version Packages" pull request; when that pull
-# request is merged, publish the new version to npm with provenance.
+# request is merged, publish the new version to npm.
 name: Release
 
 on:
