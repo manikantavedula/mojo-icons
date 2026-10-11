@@ -1,0 +1,2515 @@
+{
+  "name": "@axismojo/icons",
+  "count": 349,
+  "icons": [
+    {
+      "name": "Activity",
+      "file": "svg/activity.svg",
+      "aliases": []
+    },
+    {
+      "name": "AlarmClock",
+      "file": "svg/alarm-clock.svg",
+      "aliases": []
+    },
+    {
+      "name": "AppWindow",
+      "file": "svg/app-window.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArchiveRestore",
+      "file": "svg/archive-restore.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArchiveX",
+      "file": "svg/archive-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "Archive",
+      "file": "svg/archive.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowDownRight",
+      "file": "svg/arrow-down-right.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowDown",
+      "file": "svg/arrow-down.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowLeftRight",
+      "file": "svg/arrow-left-right.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowLeft",
+      "file": "svg/arrow-left.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowRightLeft",
+      "file": "svg/arrow-right-left.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowRight",
+      "file": "svg/arrow-right.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowUpDown",
+      "file": "svg/arrow-up-down.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowUpRight",
+      "file": "svg/arrow-up-right.svg",
+      "aliases": []
+    },
+    {
+      "name": "ArrowUp",
+      "file": "svg/arrow-up.svg",
+      "aliases": []
+    },
+    {
+      "name": "AtSign",
+      "file": "svg/at-sign.svg",
+      "aliases": []
+    },
+    {
+      "name": "Atom",
+      "file": "svg/atom.svg",
+      "aliases": []
+    },
+    {
+      "name": "Attendance",
+      "file": "svg/attendance.svg",
+      "aliases": []
+    },
+    {
+      "name": "AudioLines",
+      "file": "svg/audio-lines.svg",
+      "aliases": []
+    },
+    {
+      "name": "AuditLog",
+      "file": "svg/audit-log.svg",
+      "aliases": []
+    },
+    {
+      "name": "AulaArch",
+      "file": "svg/aula-arch.svg",
+      "aliases": []
+    },
+    {
+      "name": "Award",
+      "file": "svg/award.svg",
+      "aliases": []
+    },
+    {
+      "name": "Backpack",
+      "file": "svg/backpack.svg",
+      "aliases": []
+    },
+    {
+      "name": "BadgeCheck",
+      "file": "svg/badge-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "BadgeIndianRupee",
+      "file": "svg/badge-indian-rupee.svg",
+      "aliases": []
+    },
+    {
+      "name": "BadgePercent",
+      "file": "svg/badge-percent.svg",
+      "aliases": []
+    },
+    {
+      "name": "Ban",
+      "file": "svg/ban.svg",
+      "aliases": []
+    },
+    {
+      "name": "Banknote",
+      "file": "svg/banknote.svg",
+      "aliases": []
+    },
+    {
+      "name": "BarChart3",
+      "file": "svg/bar-chart-3.svg",
+      "aliases": []
+    },
+    {
+      "name": "BellOff",
+      "file": "svg/bell-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "BellRing",
+      "file": "svg/bell-ring.svg",
+      "aliases": []
+    },
+    {
+      "name": "Bell",
+      "file": "svg/bell.svg",
+      "aliases": []
+    },
+    {
+      "name": "Binary",
+      "file": "svg/binary.svg",
+      "aliases": []
+    },
+    {
+      "name": "BookA",
+      "file": "svg/book-a.svg",
+      "aliases": []
+    },
+    {
+      "name": "BookCheck",
+      "file": "svg/book-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "BookCopy",
+      "file": "svg/book-copy.svg",
+      "aliases": []
+    },
+    {
+      "name": "BookMarked",
+      "file": "svg/book-marked.svg",
+      "aliases": []
+    },
+    {
+      "name": "BookOpenCheck",
+      "file": "svg/book-open-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "BookOpen",
+      "file": "svg/book-open.svg",
+      "aliases": []
+    },
+    {
+      "name": "BookX",
+      "file": "svg/book-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "Book",
+      "file": "svg/book.svg",
+      "aliases": []
+    },
+    {
+      "name": "Bookmark",
+      "file": "svg/bookmark.svg",
+      "aliases": []
+    },
+    {
+      "name": "Bot",
+      "file": "svg/bot.svg",
+      "aliases": []
+    },
+    {
+      "name": "Braces",
+      "file": "svg/braces.svg",
+      "aliases": []
+    },
+    {
+      "name": "Brain",
+      "file": "svg/brain.svg",
+      "aliases": []
+    },
+    {
+      "name": "Briefcase",
+      "file": "svg/briefcase.svg",
+      "aliases": []
+    },
+    {
+      "name": "Bug",
+      "file": "svg/bug.svg",
+      "aliases": []
+    },
+    {
+      "name": "Building2",
+      "file": "svg/building-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Building",
+      "file": "svg/building.svg",
+      "aliases": []
+    },
+    {
+      "name": "Bus",
+      "file": "svg/bus.svg",
+      "aliases": []
+    },
+    {
+      "name": "Calculator",
+      "file": "svg/calculator.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarCheck2",
+      "file": "svg/calendar-check-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarCheck",
+      "file": "svg/calendar-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarClock",
+      "file": "svg/calendar-clock.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarDays",
+      "file": "svg/calendar-days.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarOff",
+      "file": "svg/calendar-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarPlus",
+      "file": "svg/calendar-plus.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarRange",
+      "file": "svg/calendar-range.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarX",
+      "file": "svg/calendar-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "CalendarX2",
+      "file": "svg/calendar-x2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Calendar",
+      "file": "svg/calendar.svg",
+      "aliases": []
+    },
+    {
+      "name": "Camera",
+      "file": "svg/camera.svg",
+      "aliases": []
+    },
+    {
+      "name": "Certificate",
+      "file": "svg/certificate.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChatBubble",
+      "file": "svg/chat-bubble.svg",
+      "aliases": []
+    },
+    {
+      "name": "CheckCheck",
+      "file": "svg/check-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "Check",
+      "file": "svg/check.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChevronDown",
+      "file": "svg/chevron-down.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChevronLeft",
+      "file": "svg/chevron-left.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChevronRight",
+      "file": "svg/chevron-right.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChevronUp",
+      "file": "svg/chevron-up.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChevronsLeft",
+      "file": "svg/chevrons-left.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChevronsRight",
+      "file": "svg/chevrons-right.svg",
+      "aliases": []
+    },
+    {
+      "name": "ChevronsUpDown",
+      "file": "svg/chevrons-up-down.svg",
+      "aliases": []
+    },
+    {
+      "name": "CircleAlert",
+      "file": "svg/circle-alert.svg",
+      "aliases": [
+        "AlertCircle"
+      ]
+    },
+    {
+      "name": "CircleCheck",
+      "file": "svg/circle-check.svg",
+      "aliases": [
+        "CheckCircle2"
+      ]
+    },
+    {
+      "name": "CircleDashed",
+      "file": "svg/circle-dashed.svg",
+      "aliases": []
+    },
+    {
+      "name": "CircleHelp",
+      "file": "svg/circle-help.svg",
+      "aliases": [
+        "HelpCircle"
+      ]
+    },
+    {
+      "name": "CircleSlash",
+      "file": "svg/circle-slash.svg",
+      "aliases": []
+    },
+    {
+      "name": "CircleUser",
+      "file": "svg/circle-user.svg",
+      "aliases": [
+        "UserCircle"
+      ]
+    },
+    {
+      "name": "CircleX",
+      "file": "svg/circle-x.svg",
+      "aliases": [
+        "XCircle"
+      ]
+    },
+    {
+      "name": "Circle",
+      "file": "svg/circle.svg",
+      "aliases": []
+    },
+    {
+      "name": "Classroom",
+      "file": "svg/classroom.svg",
+      "aliases": []
+    },
+    {
+      "name": "ClipboardCheck",
+      "file": "svg/clipboard-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "ClipboardList",
+      "file": "svg/clipboard-list.svg",
+      "aliases": []
+    },
+    {
+      "name": "ClipboardPen",
+      "file": "svg/clipboard-pen.svg",
+      "aliases": []
+    },
+    {
+      "name": "Clipboard",
+      "file": "svg/clipboard.svg",
+      "aliases": []
+    },
+    {
+      "name": "Clock3",
+      "file": "svg/clock-3.svg",
+      "aliases": []
+    },
+    {
+      "name": "Clock",
+      "file": "svg/clock.svg",
+      "aliases": []
+    },
+    {
+      "name": "CloudOff",
+      "file": "svg/cloud-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "Cloud",
+      "file": "svg/cloud.svg",
+      "aliases": []
+    },
+    {
+      "name": "Code2",
+      "file": "svg/code-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Code",
+      "file": "svg/code.svg",
+      "aliases": []
+    },
+    {
+      "name": "Coffee",
+      "file": "svg/coffee.svg",
+      "aliases": []
+    },
+    {
+      "name": "Coins",
+      "file": "svg/coins.svg",
+      "aliases": []
+    },
+    {
+      "name": "Columns3",
+      "file": "svg/columns-3.svg",
+      "aliases": []
+    },
+    {
+      "name": "Compass",
+      "file": "svg/compass.svg",
+      "aliases": []
+    },
+    {
+      "name": "Contact",
+      "file": "svg/contact.svg",
+      "aliases": []
+    },
+    {
+      "name": "Copy",
+      "file": "svg/copy.svg",
+      "aliases": []
+    },
+    {
+      "name": "Cpu",
+      "file": "svg/cpu.svg",
+      "aliases": []
+    },
+    {
+      "name": "CreditCard",
+      "file": "svg/credit-card.svg",
+      "aliases": []
+    },
+    {
+      "name": "Database",
+      "file": "svg/database.svg",
+      "aliases": []
+    },
+    {
+      "name": "Dialpad",
+      "file": "svg/dialpad.svg",
+      "aliases": []
+    },
+    {
+      "name": "DoorOpen",
+      "file": "svg/door-open.svg",
+      "aliases": []
+    },
+    {
+      "name": "Download",
+      "file": "svg/download.svg",
+      "aliases": []
+    },
+    {
+      "name": "Drama",
+      "file": "svg/drama.svg",
+      "aliases": []
+    },
+    {
+      "name": "Droplets",
+      "file": "svg/droplets.svg",
+      "aliases": []
+    },
+    {
+      "name": "Dumbbell",
+      "file": "svg/dumbbell.svg",
+      "aliases": []
+    },
+    {
+      "name": "Eraser",
+      "file": "svg/eraser.svg",
+      "aliases": []
+    },
+    {
+      "name": "Exam",
+      "file": "svg/exam.svg",
+      "aliases": []
+    },
+    {
+      "name": "ExternalLink",
+      "file": "svg/external-link.svg",
+      "aliases": []
+    },
+    {
+      "name": "EyeOff",
+      "file": "svg/eye-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "Eye",
+      "file": "svg/eye.svg",
+      "aliases": []
+    },
+    {
+      "name": "FileCode",
+      "file": "svg/file-code.svg",
+      "aliases": []
+    },
+    {
+      "name": "FileDown",
+      "file": "svg/file-down.svg",
+      "aliases": []
+    },
+    {
+      "name": "FilePlus2",
+      "file": "svg/file-plus-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "FileQuestion",
+      "file": "svg/file-question.svg",
+      "aliases": []
+    },
+    {
+      "name": "FileSpreadsheet",
+      "file": "svg/file-spreadsheet.svg",
+      "aliases": []
+    },
+    {
+      "name": "FileText",
+      "file": "svg/file-text.svg",
+      "aliases": []
+    },
+    {
+      "name": "FileUp",
+      "file": "svg/file-up.svg",
+      "aliases": []
+    },
+    {
+      "name": "FileWarning",
+      "file": "svg/file-warning.svg",
+      "aliases": []
+    },
+    {
+      "name": "File",
+      "file": "svg/file.svg",
+      "aliases": []
+    },
+    {
+      "name": "Filter",
+      "file": "svg/filter.svg",
+      "aliases": []
+    },
+    {
+      "name": "Fingerprint",
+      "file": "svg/fingerprint.svg",
+      "aliases": []
+    },
+    {
+      "name": "Flag",
+      "file": "svg/flag.svg",
+      "aliases": []
+    },
+    {
+      "name": "Flame",
+      "file": "svg/flame.svg",
+      "aliases": []
+    },
+    {
+      "name": "FlaskConical",
+      "file": "svg/flask-conical.svg",
+      "aliases": []
+    },
+    {
+      "name": "FolderOpen",
+      "file": "svg/folder-open.svg",
+      "aliases": []
+    },
+    {
+      "name": "FolderPlus",
+      "file": "svg/folder-plus.svg",
+      "aliases": []
+    },
+    {
+      "name": "Folder",
+      "file": "svg/folder.svg",
+      "aliases": []
+    },
+    {
+      "name": "Frown",
+      "file": "svg/frown.svg",
+      "aliases": []
+    },
+    {
+      "name": "Gauge",
+      "file": "svg/gauge.svg",
+      "aliases": []
+    },
+    {
+      "name": "Gem",
+      "file": "svg/gem.svg",
+      "aliases": []
+    },
+    {
+      "name": "GitBranch",
+      "file": "svg/git-branch.svg",
+      "aliases": []
+    },
+    {
+      "name": "Globe",
+      "file": "svg/globe.svg",
+      "aliases": [
+        "Globe2"
+      ]
+    },
+    {
+      "name": "GraduationCap",
+      "file": "svg/graduation-cap.svg",
+      "aliases": []
+    },
+    {
+      "name": "GripVertical",
+      "file": "svg/grip-vertical.svg",
+      "aliases": []
+    },
+    {
+      "name": "HandCoins",
+      "file": "svg/hand-coins.svg",
+      "aliases": []
+    },
+    {
+      "name": "Hand",
+      "file": "svg/hand.svg",
+      "aliases": []
+    },
+    {
+      "name": "Hash",
+      "file": "svg/hash.svg",
+      "aliases": []
+    },
+    {
+      "name": "Headphones",
+      "file": "svg/headphones.svg",
+      "aliases": []
+    },
+    {
+      "name": "HeartHandshake",
+      "file": "svg/heart-handshake.svg",
+      "aliases": []
+    },
+    {
+      "name": "HeartPulse",
+      "file": "svg/heart-pulse.svg",
+      "aliases": []
+    },
+    {
+      "name": "Heart",
+      "file": "svg/heart.svg",
+      "aliases": []
+    },
+    {
+      "name": "History",
+      "file": "svg/history.svg",
+      "aliases": []
+    },
+    {
+      "name": "Home",
+      "file": "svg/home.svg",
+      "aliases": []
+    },
+    {
+      "name": "Hourglass",
+      "file": "svg/hourglass.svg",
+      "aliases": []
+    },
+    {
+      "name": "IdCard",
+      "file": "svg/id-card.svg",
+      "aliases": []
+    },
+    {
+      "name": "Id",
+      "file": "svg/id.svg",
+      "aliases": []
+    },
+    {
+      "name": "Image",
+      "file": "svg/image.svg",
+      "aliases": []
+    },
+    {
+      "name": "Inbox",
+      "file": "svg/inbox.svg",
+      "aliases": []
+    },
+    {
+      "name": "IndianRupee",
+      "file": "svg/indian-rupee.svg",
+      "aliases": []
+    },
+    {
+      "name": "Info",
+      "file": "svg/info.svg",
+      "aliases": []
+    },
+    {
+      "name": "KanbanSquare",
+      "file": "svg/kanban-square.svg",
+      "aliases": []
+    },
+    {
+      "name": "KeyRound",
+      "file": "svg/key-round.svg",
+      "aliases": []
+    },
+    {
+      "name": "Key",
+      "file": "svg/key.svg",
+      "aliases": []
+    },
+    {
+      "name": "Keyboard",
+      "file": "svg/keyboard.svg",
+      "aliases": []
+    },
+    {
+      "name": "Landmark",
+      "file": "svg/landmark.svg",
+      "aliases": []
+    },
+    {
+      "name": "Languages",
+      "file": "svg/languages.svg",
+      "aliases": []
+    },
+    {
+      "name": "Laptop",
+      "file": "svg/laptop.svg",
+      "aliases": []
+    },
+    {
+      "name": "Lattu",
+      "file": "svg/lattu.svg",
+      "aliases": []
+    },
+    {
+      "name": "Layers",
+      "file": "svg/layers.svg",
+      "aliases": []
+    },
+    {
+      "name": "LayoutDashboard",
+      "file": "svg/layout-dashboard.svg",
+      "aliases": []
+    },
+    {
+      "name": "LayoutGrid",
+      "file": "svg/layout-grid.svg",
+      "aliases": []
+    },
+    {
+      "name": "Leaf",
+      "file": "svg/leaf.svg",
+      "aliases": []
+    },
+    {
+      "name": "LibraryBig",
+      "file": "svg/library-big.svg",
+      "aliases": []
+    },
+    {
+      "name": "Library",
+      "file": "svg/library.svg",
+      "aliases": []
+    },
+    {
+      "name": "LifeBuoy",
+      "file": "svg/life-buoy.svg",
+      "aliases": []
+    },
+    {
+      "name": "Lightbulb",
+      "file": "svg/lightbulb.svg",
+      "aliases": []
+    },
+    {
+      "name": "LineChart",
+      "file": "svg/line-chart.svg",
+      "aliases": []
+    },
+    {
+      "name": "Link2",
+      "file": "svg/link-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Link",
+      "file": "svg/link.svg",
+      "aliases": []
+    },
+    {
+      "name": "ListPlus",
+      "file": "svg/list-plus.svg",
+      "aliases": []
+    },
+    {
+      "name": "List",
+      "file": "svg/list.svg",
+      "aliases": []
+    },
+    {
+      "name": "Loader2",
+      "file": "svg/loader-2.svg",
+      "aliases": [
+        "LoaderCircle"
+      ]
+    },
+    {
+      "name": "LockKeyhole",
+      "file": "svg/lock-keyhole.svg",
+      "aliases": []
+    },
+    {
+      "name": "Lock",
+      "file": "svg/lock.svg",
+      "aliases": []
+    },
+    {
+      "name": "LogIn",
+      "file": "svg/log-in.svg",
+      "aliases": []
+    },
+    {
+      "name": "LogOut",
+      "file": "svg/log-out.svg",
+      "aliases": []
+    },
+    {
+      "name": "MailCheck",
+      "file": "svg/mail-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "MailOpen",
+      "file": "svg/mail-open.svg",
+      "aliases": []
+    },
+    {
+      "name": "Mail",
+      "file": "svg/mail.svg",
+      "aliases": []
+    },
+    {
+      "name": "Mails",
+      "file": "svg/mails.svg",
+      "aliases": []
+    },
+    {
+      "name": "MapPin",
+      "file": "svg/map-pin.svg",
+      "aliases": []
+    },
+    {
+      "name": "Map",
+      "file": "svg/map.svg",
+      "aliases": []
+    },
+    {
+      "name": "Maximize",
+      "file": "svg/maximize.svg",
+      "aliases": []
+    },
+    {
+      "name": "Megaphone",
+      "file": "svg/megaphone.svg",
+      "aliases": []
+    },
+    {
+      "name": "Meh",
+      "file": "svg/meh.svg",
+      "aliases": []
+    },
+    {
+      "name": "Menu",
+      "file": "svg/menu.svg",
+      "aliases": []
+    },
+    {
+      "name": "MeruYou",
+      "file": "svg/meru-you.svg",
+      "aliases": []
+    },
+    {
+      "name": "MessageCircle",
+      "file": "svg/message-circle.svg",
+      "aliases": []
+    },
+    {
+      "name": "MessageSquareLock",
+      "file": "svg/message-square-lock.svg",
+      "aliases": []
+    },
+    {
+      "name": "MessageSquarePlus",
+      "file": "svg/message-square-plus.svg",
+      "aliases": []
+    },
+    {
+      "name": "MessageSquareText",
+      "file": "svg/message-square-text.svg",
+      "aliases": []
+    },
+    {
+      "name": "MessageSquare",
+      "file": "svg/message-square.svg",
+      "aliases": []
+    },
+    {
+      "name": "MessagesSquare",
+      "file": "svg/messages-square.svg",
+      "aliases": []
+    },
+    {
+      "name": "Mic2",
+      "file": "svg/mic-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "MicOff",
+      "file": "svg/mic-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "Mic",
+      "file": "svg/mic.svg",
+      "aliases": []
+    },
+    {
+      "name": "Microscope",
+      "file": "svg/microscope.svg",
+      "aliases": []
+    },
+    {
+      "name": "Minimize",
+      "file": "svg/minimize.svg",
+      "aliases": []
+    },
+    {
+      "name": "MintWave",
+      "file": "svg/mint-wave.svg",
+      "aliases": []
+    },
+    {
+      "name": "Minus",
+      "file": "svg/minus.svg",
+      "aliases": []
+    },
+    {
+      "name": "MonitorPlay",
+      "file": "svg/monitor-play.svg",
+      "aliases": []
+    },
+    {
+      "name": "MonitorSmartphone",
+      "file": "svg/monitor-smartphone.svg",
+      "aliases": []
+    },
+    {
+      "name": "Monitor",
+      "file": "svg/monitor.svg",
+      "aliases": []
+    },
+    {
+      "name": "Moon",
+      "file": "svg/moon.svg",
+      "aliases": []
+    },
+    {
+      "name": "MoreHorizontal",
+      "file": "svg/more-horizontal.svg",
+      "aliases": [
+        "Ellipsis"
+      ]
+    },
+    {
+      "name": "MoreVertical",
+      "file": "svg/more-vertical.svg",
+      "aliases": [
+        "EllipsisVertical"
+      ]
+    },
+    {
+      "name": "Music",
+      "file": "svg/music.svg",
+      "aliases": []
+    },
+    {
+      "name": "Network",
+      "file": "svg/network.svg",
+      "aliases": []
+    },
+    {
+      "name": "Newspaper",
+      "file": "svg/newspaper.svg",
+      "aliases": []
+    },
+    {
+      "name": "Nfc",
+      "file": "svg/nfc.svg",
+      "aliases": []
+    },
+    {
+      "name": "NotebookPen",
+      "file": "svg/notebook-pen.svg",
+      "aliases": []
+    },
+    {
+      "name": "OctagonAlert",
+      "file": "svg/octagon-alert.svg",
+      "aliases": [
+        "AlertOctagon"
+      ]
+    },
+    {
+      "name": "OctagonX",
+      "file": "svg/octagon-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "Otp",
+      "file": "svg/otp.svg",
+      "aliases": []
+    },
+    {
+      "name": "Package",
+      "file": "svg/package.svg",
+      "aliases": []
+    },
+    {
+      "name": "Palette",
+      "file": "svg/palette.svg",
+      "aliases": []
+    },
+    {
+      "name": "PanelLeft",
+      "file": "svg/panel-left.svg",
+      "aliases": []
+    },
+    {
+      "name": "Paperclip",
+      "file": "svg/paperclip.svg",
+      "aliases": []
+    },
+    {
+      "name": "Parent",
+      "file": "svg/parent.svg",
+      "aliases": []
+    },
+    {
+      "name": "PartyPopper",
+      "file": "svg/party-popper.svg",
+      "aliases": []
+    },
+    {
+      "name": "Passkey",
+      "file": "svg/passkey.svg",
+      "aliases": []
+    },
+    {
+      "name": "PauseCircle",
+      "file": "svg/pause-circle.svg",
+      "aliases": []
+    },
+    {
+      "name": "Pause",
+      "file": "svg/pause.svg",
+      "aliases": []
+    },
+    {
+      "name": "PenLine",
+      "file": "svg/pen-line.svg",
+      "aliases": []
+    },
+    {
+      "name": "PenTool",
+      "file": "svg/pen-tool.svg",
+      "aliases": []
+    },
+    {
+      "name": "PencilLine",
+      "file": "svg/pencil-line.svg",
+      "aliases": []
+    },
+    {
+      "name": "Pencil",
+      "file": "svg/pencil.svg",
+      "aliases": []
+    },
+    {
+      "name": "Percent",
+      "file": "svg/percent.svg",
+      "aliases": []
+    },
+    {
+      "name": "PhoneCall",
+      "file": "svg/phone-call.svg",
+      "aliases": []
+    },
+    {
+      "name": "PhoneForwarded",
+      "file": "svg/phone-forwarded.svg",
+      "aliases": []
+    },
+    {
+      "name": "PhoneIncoming",
+      "file": "svg/phone-incoming.svg",
+      "aliases": []
+    },
+    {
+      "name": "PhoneMissed",
+      "file": "svg/phone-missed.svg",
+      "aliases": []
+    },
+    {
+      "name": "PhoneOff",
+      "file": "svg/phone-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "PhoneOutgoing",
+      "file": "svg/phone-outgoing.svg",
+      "aliases": []
+    },
+    {
+      "name": "Phone",
+      "file": "svg/phone.svg",
+      "aliases": []
+    },
+    {
+      "name": "PieChart",
+      "file": "svg/pie-chart.svg",
+      "aliases": []
+    },
+    {
+      "name": "PinOff",
+      "file": "svg/pin-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "Pin",
+      "file": "svg/pin.svg",
+      "aliases": []
+    },
+    {
+      "name": "Plane",
+      "file": "svg/plane.svg",
+      "aliases": []
+    },
+    {
+      "name": "PlayCircle",
+      "file": "svg/play-circle.svg",
+      "aliases": []
+    },
+    {
+      "name": "Play",
+      "file": "svg/play.svg",
+      "aliases": []
+    },
+    {
+      "name": "PlugZap",
+      "file": "svg/plug-zap.svg",
+      "aliases": []
+    },
+    {
+      "name": "Plug",
+      "file": "svg/plug.svg",
+      "aliases": []
+    },
+    {
+      "name": "Plus",
+      "file": "svg/plus.svg",
+      "aliases": []
+    },
+    {
+      "name": "Power",
+      "file": "svg/power.svg",
+      "aliases": []
+    },
+    {
+      "name": "Presentation",
+      "file": "svg/presentation.svg",
+      "aliases": []
+    },
+    {
+      "name": "Printer",
+      "file": "svg/printer.svg",
+      "aliases": []
+    },
+    {
+      "name": "Puzzle",
+      "file": "svg/puzzle.svg",
+      "aliases": []
+    },
+    {
+      "name": "QrCode",
+      "file": "svg/qr-code.svg",
+      "aliases": []
+    },
+    {
+      "name": "Radio",
+      "file": "svg/radio.svg",
+      "aliases": []
+    },
+    {
+      "name": "ReceiptIndianRupee",
+      "file": "svg/receipt-indian-rupee.svg",
+      "aliases": []
+    },
+    {
+      "name": "ReceiptText",
+      "file": "svg/receipt-text.svg",
+      "aliases": []
+    },
+    {
+      "name": "Receipt",
+      "file": "svg/receipt.svg",
+      "aliases": []
+    },
+    {
+      "name": "Record",
+      "file": "svg/record.svg",
+      "aliases": []
+    },
+    {
+      "name": "RefreshCw",
+      "file": "svg/refresh-cw.svg",
+      "aliases": []
+    },
+    {
+      "name": "Repeat",
+      "file": "svg/repeat.svg",
+      "aliases": []
+    },
+    {
+      "name": "ReportCard",
+      "file": "svg/report-card.svg",
+      "aliases": []
+    },
+    {
+      "name": "Rocket",
+      "file": "svg/rocket.svg",
+      "aliases": []
+    },
+    {
+      "name": "RotateCcw",
+      "file": "svg/rotate-ccw.svg",
+      "aliases": []
+    },
+    {
+      "name": "RotateCw",
+      "file": "svg/rotate-cw.svg",
+      "aliases": []
+    },
+    {
+      "name": "Route",
+      "file": "svg/route.svg",
+      "aliases": []
+    },
+    {
+      "name": "Save",
+      "file": "svg/save.svg",
+      "aliases": []
+    },
+    {
+      "name": "ScanFace",
+      "file": "svg/scan-face.svg",
+      "aliases": []
+    },
+    {
+      "name": "School",
+      "file": "svg/school.svg",
+      "aliases": []
+    },
+    {
+      "name": "Scissors",
+      "file": "svg/scissors.svg",
+      "aliases": []
+    },
+    {
+      "name": "ScrollText",
+      "file": "svg/scroll-text.svg",
+      "aliases": []
+    },
+    {
+      "name": "SearchX",
+      "file": "svg/search-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "Search",
+      "file": "svg/search.svg",
+      "aliases": []
+    },
+    {
+      "name": "SecurityKey",
+      "file": "svg/security-key.svg",
+      "aliases": []
+    },
+    {
+      "name": "SendHorizontal",
+      "file": "svg/send-horizontal.svg",
+      "aliases": []
+    },
+    {
+      "name": "Send",
+      "file": "svg/send.svg",
+      "aliases": []
+    },
+    {
+      "name": "ServerCog",
+      "file": "svg/server-cog.svg",
+      "aliases": []
+    },
+    {
+      "name": "Server",
+      "file": "svg/server.svg",
+      "aliases": []
+    },
+    {
+      "name": "Settings2",
+      "file": "svg/settings-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Settings",
+      "file": "svg/settings.svg",
+      "aliases": []
+    },
+    {
+      "name": "Shapes",
+      "file": "svg/shapes.svg",
+      "aliases": []
+    },
+    {
+      "name": "Share",
+      "file": "svg/share.svg",
+      "aliases": []
+    },
+    {
+      "name": "ShieldAlert",
+      "file": "svg/shield-alert.svg",
+      "aliases": []
+    },
+    {
+      "name": "ShieldBan",
+      "file": "svg/shield-ban.svg",
+      "aliases": []
+    },
+    {
+      "name": "ShieldCheck",
+      "file": "svg/shield-check.svg",
+      "aliases": []
+    },
+    {
+      "name": "ShieldLock",
+      "file": "svg/shield-lock.svg",
+      "aliases": []
+    },
+    {
+      "name": "ShieldOff",
+      "file": "svg/shield-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "ShieldQuestion",
+      "file": "svg/shield-question.svg",
+      "aliases": []
+    },
+    {
+      "name": "ShieldX",
+      "file": "svg/shield-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "Shield",
+      "file": "svg/shield.svg",
+      "aliases": []
+    },
+    {
+      "name": "Sigma",
+      "file": "svg/sigma.svg",
+      "aliases": []
+    },
+    {
+      "name": "Signal",
+      "file": "svg/signal.svg",
+      "aliases": []
+    },
+    {
+      "name": "Siren",
+      "file": "svg/siren.svg",
+      "aliases": []
+    },
+    {
+      "name": "SkipBack",
+      "file": "svg/skip-back.svg",
+      "aliases": []
+    },
+    {
+      "name": "SkipForward",
+      "file": "svg/skip-forward.svg",
+      "aliases": []
+    },
+    {
+      "name": "SlidersHorizontal",
+      "file": "svg/sliders-horizontal.svg",
+      "aliases": []
+    },
+    {
+      "name": "Smartphone",
+      "file": "svg/smartphone.svg",
+      "aliases": []
+    },
+    {
+      "name": "Smile",
+      "file": "svg/smile.svg",
+      "aliases": []
+    },
+    {
+      "name": "Sms",
+      "file": "svg/sms.svg",
+      "aliases": []
+    },
+    {
+      "name": "Sparkles",
+      "file": "svg/sparkles.svg",
+      "aliases": []
+    },
+    {
+      "name": "Sprout",
+      "file": "svg/sprout.svg",
+      "aliases": []
+    },
+    {
+      "name": "Square",
+      "file": "svg/square.svg",
+      "aliases": []
+    },
+    {
+      "name": "Star",
+      "file": "svg/star.svg",
+      "aliases": []
+    },
+    {
+      "name": "Student",
+      "file": "svg/student.svg",
+      "aliases": []
+    },
+    {
+      "name": "SunMedium",
+      "file": "svg/sun-medium.svg",
+      "aliases": []
+    },
+    {
+      "name": "Sun",
+      "file": "svg/sun.svg",
+      "aliases": []
+    },
+    {
+      "name": "Table2",
+      "file": "svg/table-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Tablet",
+      "file": "svg/tablet.svg",
+      "aliases": []
+    },
+    {
+      "name": "Tag",
+      "file": "svg/tag.svg",
+      "aliases": []
+    },
+    {
+      "name": "Tags",
+      "file": "svg/tags.svg",
+      "aliases": []
+    },
+    {
+      "name": "Target",
+      "file": "svg/target.svg",
+      "aliases": []
+    },
+    {
+      "name": "Teacher",
+      "file": "svg/teacher.svg",
+      "aliases": []
+    },
+    {
+      "name": "Terminal",
+      "file": "svg/terminal.svg",
+      "aliases": []
+    },
+    {
+      "name": "ThumbsDown",
+      "file": "svg/thumbs-down.svg",
+      "aliases": []
+    },
+    {
+      "name": "ThumbsUp",
+      "file": "svg/thumbs-up.svg",
+      "aliases": []
+    },
+    {
+      "name": "TimerReset",
+      "file": "svg/timer-reset.svg",
+      "aliases": []
+    },
+    {
+      "name": "Timer",
+      "file": "svg/timer.svg",
+      "aliases": []
+    },
+    {
+      "name": "Timetable",
+      "file": "svg/timetable.svg",
+      "aliases": []
+    },
+    {
+      "name": "ToggleRight",
+      "file": "svg/toggle-right.svg",
+      "aliases": []
+    },
+    {
+      "name": "Trash2",
+      "file": "svg/trash-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "TrendingDown",
+      "file": "svg/trending-down.svg",
+      "aliases": []
+    },
+    {
+      "name": "TrendingUp",
+      "file": "svg/trending-up.svg",
+      "aliases": []
+    },
+    {
+      "name": "TriangleAlert",
+      "file": "svg/triangle-alert.svg",
+      "aliases": [
+        "AlertTriangle"
+      ]
+    },
+    {
+      "name": "Trophy",
+      "file": "svg/trophy.svg",
+      "aliases": []
+    },
+    {
+      "name": "Umbrella",
+      "file": "svg/umbrella.svg",
+      "aliases": []
+    },
+    {
+      "name": "Undo2",
+      "file": "svg/undo-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Unlink",
+      "file": "svg/unlink.svg",
+      "aliases": []
+    },
+    {
+      "name": "Unlock",
+      "file": "svg/unlock.svg",
+      "aliases": []
+    },
+    {
+      "name": "UploadCloud",
+      "file": "svg/upload-cloud.svg",
+      "aliases": []
+    },
+    {
+      "name": "Upload",
+      "file": "svg/upload.svg",
+      "aliases": []
+    },
+    {
+      "name": "UserCheck",
+      "file": "svg/user-check.svg",
+      "aliases": [
+        "UserRoundCheck"
+      ]
+    },
+    {
+      "name": "UserCog",
+      "file": "svg/user-cog.svg",
+      "aliases": []
+    },
+    {
+      "name": "UserMinus",
+      "file": "svg/user-minus.svg",
+      "aliases": []
+    },
+    {
+      "name": "UserPlus",
+      "file": "svg/user-plus.svg",
+      "aliases": []
+    },
+    {
+      "name": "UserX",
+      "file": "svg/user-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "User",
+      "file": "svg/user.svg",
+      "aliases": [
+        "UserRound"
+      ]
+    },
+    {
+      "name": "Users",
+      "file": "svg/users.svg",
+      "aliases": [
+        "UsersRound"
+      ]
+    },
+    {
+      "name": "Video",
+      "file": "svg/video.svg",
+      "aliases": []
+    },
+    {
+      "name": "Voicemail",
+      "file": "svg/voicemail.svg",
+      "aliases": []
+    },
+    {
+      "name": "Volume2",
+      "file": "svg/volume-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "VolumeX",
+      "file": "svg/volume-x.svg",
+      "aliases": []
+    },
+    {
+      "name": "Volume",
+      "file": "svg/volume.svg",
+      "aliases": []
+    },
+    {
+      "name": "Wallet",
+      "file": "svg/wallet.svg",
+      "aliases": []
+    },
+    {
+      "name": "Wand2",
+      "file": "svg/wand-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "Waveform",
+      "file": "svg/waveform.svg",
+      "aliases": []
+    },
+    {
+      "name": "Webhook",
+      "file": "svg/webhook.svg",
+      "aliases": []
+    },
+    {
+      "name": "WifiOff",
+      "file": "svg/wifi-off.svg",
+      "aliases": []
+    },
+    {
+      "name": "Wifi",
+      "file": "svg/wifi.svg",
+      "aliases": []
+    },
+    {
+      "name": "Workflow",
+      "file": "svg/workflow.svg",
+      "aliases": []
+    },
+    {
+      "name": "Wrench",
+      "file": "svg/wrench.svg",
+      "aliases": []
+    },
+    {
+      "name": "X",
+      "file": "svg/x.svg",
+      "aliases": []
+    },
+    {
+      "name": "Zap",
+      "file": "svg/zap.svg",
+      "aliases": []
+    }
+  ],
+  "exports": [
+    "Activity",
+    "ActivityIcon",
+    "AlarmClock",
+    "AlarmClockIcon",
+    "AlertCircle",
+    "AlertCircleIcon",
+    "AlertOctagon",
+    "AlertOctagonIcon",
+    "AlertTriangle",
+    "AlertTriangleIcon",
+    "AppWindow",
+    "AppWindowIcon",
+    "Archive",
+    "ArchiveIcon",
+    "ArchiveRestore",
+    "ArchiveRestoreIcon",
+    "ArchiveX",
+    "ArchiveXIcon",
+    "ArrowDown",
+    "ArrowDownIcon",
+    "ArrowDownRight",
+    "ArrowDownRightIcon",
+    "ArrowLeft",
+    "ArrowLeftIcon",
+    "ArrowLeftRight",
+    "ArrowLeftRightIcon",
+    "ArrowRight",
+    "ArrowRightIcon",
+    "ArrowRightLeft",
+    "ArrowRightLeftIcon",
+    "ArrowUp",
+    "ArrowUpDown",
+    "ArrowUpDownIcon",
+    "ArrowUpIcon",
+    "ArrowUpRight",
+    "ArrowUpRightIcon",
+    "AtSign",
+    "AtSignIcon",
+    "Atom",
+    "AtomIcon",
+    "Attendance",
+    "AttendanceIcon",
+    "AudioLines",
+    "AudioLinesIcon",
+    "AuditLog",
+    "AuditLogIcon",
+    "AulaArch",
+    "AulaArchIcon",
+    "Award",
+    "AwardIcon",
+    "Backpack",
+    "BackpackIcon",
+    "BadgeCheck",
+    "BadgeCheckIcon",
+    "BadgeIndianRupee",
+    "BadgeIndianRupeeIcon",
+    "BadgePercent",
+    "BadgePercentIcon",
+    "Ban",
+    "BanIcon",
+    "Banknote",
+    "BanknoteIcon",
+    "BarChart3",
+    "BarChart3Icon",
+    "Bell",
+    "BellIcon",
+    "BellOff",
+    "BellOffIcon",
+    "BellRing",
+    "BellRingIcon",
+    "Binary",
+    "BinaryIcon",
+    "Book",
+    "BookA",
+    "BookAIcon",
+    "BookCheck",
+    "BookCheckIcon",
+    "BookCopy",
+    "BookCopyIcon",
+    "BookIcon",
+    "BookMarked",
+    "BookMarkedIcon",
+    "BookOpen",
+    "BookOpenCheck",
+    "BookOpenCheckIcon",
+    "BookOpenIcon",
+    "BookX",
+    "BookXIcon",
+    "Bookmark",
+    "BookmarkIcon",
+    "Bot",
+    "BotIcon",
+    "Braces",
+    "BracesIcon",
+    "Brain",
+    "BrainIcon",
+    "Briefcase",
+    "BriefcaseIcon",
+    "Bug",
+    "BugIcon",
+    "Building",
+    "Building2",
+    "Building2Icon",
+    "BuildingIcon",
+    "Bus",
+    "BusIcon",
+    "Calculator",
+    "CalculatorIcon",
+    "Calendar",
+    "CalendarCheck",
+    "CalendarCheck2",
+    "CalendarCheck2Icon",
+    "CalendarCheckIcon",
+    "CalendarClock",
+    "CalendarClockIcon",
+    "CalendarDays",
+    "CalendarDaysIcon",
+    "CalendarIcon",
+    "CalendarOff",
+    "CalendarOffIcon",
+    "CalendarPlus",
+    "CalendarPlusIcon",
+    "CalendarRange",
+    "CalendarRangeIcon",
+    "CalendarX",
+    "CalendarX2",
+    "CalendarX2Icon",
+    "CalendarXIcon",
+    "Camera",
+    "CameraIcon",
+    "Certificate",
+    "CertificateIcon",
+    "ChatBubble",
+    "ChatBubbleIcon",
+    "Check",
+    "CheckCheck",
+    "CheckCheckIcon",
+    "CheckCircle2",
+    "CheckCircle2Icon",
+    "CheckIcon",
+    "ChevronDown",
+    "ChevronDownIcon",
+    "ChevronLeft",
+    "ChevronLeftIcon",
+    "ChevronRight",
+    "ChevronRightIcon",
+    "ChevronUp",
+    "ChevronUpIcon",
+    "ChevronsLeft",
+    "ChevronsLeftIcon",
+    "ChevronsRight",
+    "ChevronsRightIcon",
+    "ChevronsUpDown",
+    "ChevronsUpDownIcon",
+    "Circle",
+    "CircleAlert",
+    "CircleAlertIcon",
+    "CircleCheck",
+    "CircleCheckIcon",
+    "CircleDashed",
+    "CircleDashedIcon",
+    "CircleHelp",
+    "CircleHelpIcon",
+    "CircleIcon",
+    "CircleSlash",
+    "CircleSlashIcon",
+    "CircleUser",
+    "CircleUserIcon",
+    "CircleX",
+    "CircleXIcon",
+    "Classroom",
+    "ClassroomIcon",
+    "Clipboard",
+    "ClipboardCheck",
+    "ClipboardCheckIcon",
+    "ClipboardIcon",
+    "ClipboardList",
+    "ClipboardListIcon",
+    "ClipboardPen",
+    "ClipboardPenIcon",
+    "Clock",
+    "Clock3",
+    "Clock3Icon",
+    "ClockIcon",
+    "Cloud",
+    "CloudIcon",
+    "CloudOff",
+    "CloudOffIcon",
+    "Code",
+    "Code2",
+    "Code2Icon",
+    "CodeIcon",
+    "Coffee",
+    "CoffeeIcon",
+    "Coins",
+    "CoinsIcon",
+    "Columns3",
+    "Columns3Icon",
+    "Compass",
+    "CompassIcon",
+    "Contact",
+    "ContactIcon",
+    "Copy",
+    "CopyIcon",
+    "Cpu",
+    "CpuIcon",
+    "CreditCard",
+    "CreditCardIcon",
+    "Database",
+    "DatabaseIcon",
+    "Dialpad",
+    "DialpadIcon",
+    "DoorOpen",
+    "DoorOpenIcon",
+    "Download",
+    "DownloadIcon",
+    "Drama",
+    "DramaIcon",
+    "Droplets",
+    "DropletsIcon",
+    "Dumbbell",
+    "DumbbellIcon",
+    "Ellipsis",
+    "EllipsisIcon",
+    "EllipsisVertical",
+    "EllipsisVerticalIcon",
+    "Eraser",
+    "EraserIcon",
+    "Exam",
+    "ExamIcon",
+    "ExternalLink",
+    "ExternalLinkIcon",
+    "Eye",
+    "EyeIcon",
+    "EyeOff",
+    "EyeOffIcon",
+    "File",
+    "FileCode",
+    "FileCodeIcon",
+    "FileDown",
+    "FileDownIcon",
+    "FileIcon",
+    "FilePlus2",
+    "FilePlus2Icon",
+    "FileQuestion",
+    "FileQuestionIcon",
+    "FileSpreadsheet",
+    "FileSpreadsheetIcon",
+    "FileText",
+    "FileTextIcon",
+    "FileUp",
+    "FileUpIcon",
+    "FileWarning",
+    "FileWarningIcon",
+    "Filter",
+    "FilterIcon",
+    "Fingerprint",
+    "FingerprintIcon",
+    "Flag",
+    "FlagIcon",
+    "Flame",
+    "FlameIcon",
+    "FlaskConical",
+    "FlaskConicalIcon",
+    "Folder",
+    "FolderIcon",
+    "FolderOpen",
+    "FolderOpenIcon",
+    "FolderPlus",
+    "FolderPlusIcon",
+    "Frown",
+    "FrownIcon",
+    "Gauge",
+    "GaugeIcon",
+    "Gem",
+    "GemIcon",
+    "GitBranch",
+    "GitBranchIcon",
+    "Globe",
+    "Globe2",
+    "Globe2Icon",
+    "GlobeIcon",
+    "GraduationCap",
+    "GraduationCapIcon",
+    "GripVertical",
+    "GripVerticalIcon",
+    "Hand",
+    "HandCoins",
+    "HandCoinsIcon",
+    "HandIcon",
+    "Hash",
+    "HashIcon",
+    "Headphones",
+    "HeadphonesIcon",
+    "Heart",
+    "HeartHandshake",
+    "HeartHandshakeIcon",
+    "HeartIcon",
+    "HeartPulse",
+    "HeartPulseIcon",
+    "HelpCircle",
+    "HelpCircleIcon",
+    "History",
+    "HistoryIcon",
+    "Home",
+    "HomeIcon",
+    "Hourglass",
+    "HourglassIcon",
+    "Id",
+    "IdCard",
+    "IdCardIcon",
+    "IdIcon",
+    "Image",
+    "ImageIcon",
+    "Inbox",
+    "InboxIcon",
+    "IndianRupee",
+    "IndianRupeeIcon",
+    "Info",
+    "InfoIcon",
+    "KanbanSquare",
+    "KanbanSquareIcon",
+    "Key",
+    "KeyIcon",
+    "KeyRound",
+    "KeyRoundIcon",
+    "Keyboard",
+    "KeyboardIcon",
+    "Landmark",
+    "LandmarkIcon",
+    "Languages",
+    "LanguagesIcon",
+    "Laptop",
+    "LaptopIcon",
+    "Lattu",
+    "LattuIcon",
+    "Layers",
+    "LayersIcon",
+    "LayoutDashboard",
+    "LayoutDashboardIcon",
+    "LayoutGrid",
+    "LayoutGridIcon",
+    "Leaf",
+    "LeafIcon",
+    "Library",
+    "LibraryBig",
+    "LibraryBigIcon",
+    "LibraryIcon",
+    "LifeBuoy",
+    "LifeBuoyIcon",
+    "Lightbulb",
+    "LightbulbIcon",
+    "LineChart",
+    "LineChartIcon",
+    "Link",
+    "Link2",
+    "Link2Icon",
+    "LinkIcon",
+    "List",
+    "ListIcon",
+    "ListPlus",
+    "ListPlusIcon",
+    "Loader2",
+    "Loader2Icon",
+    "LoaderCircle",
+    "LoaderCircleIcon",
+    "Lock",
+    "LockIcon",
+    "LockKeyhole",
+    "LockKeyholeIcon",
+    "LogIn",
+    "LogInIcon",
+    "LogOut",
+    "LogOutIcon",
+    "Mail",
+    "MailCheck",
+    "MailCheckIcon",
+    "MailIcon",
+    "MailOpen",
+    "MailOpenIcon",
+    "Mails",
+    "MailsIcon",
+    "Map",
+    "MapIcon",
+    "MapPin",
+    "MapPinIcon",
+    "Maximize",
+    "MaximizeIcon",
+    "Megaphone",
+    "MegaphoneIcon",
+    "Meh",
+    "MehIcon",
+    "Menu",
+    "MenuIcon",
+    "MeruYou",
+    "MeruYouIcon",
+    "MessageCircle",
+    "MessageCircleIcon",
+    "MessageSquare",
+    "MessageSquareIcon",
+    "MessageSquareLock",
+    "MessageSquareLockIcon",
+    "MessageSquarePlus",
+    "MessageSquarePlusIcon",
+    "MessageSquareText",
+    "MessageSquareTextIcon",
+    "MessagesSquare",
+    "MessagesSquareIcon",
+    "Mic",
+    "Mic2",
+    "Mic2Icon",
+    "MicIcon",
+    "MicOff",
+    "MicOffIcon",
+    "Microscope",
+    "MicroscopeIcon",
+    "Minimize",
+    "MinimizeIcon",
+    "MintWave",
+    "MintWaveIcon",
+    "Minus",
+    "MinusIcon",
+    "Monitor",
+    "MonitorIcon",
+    "MonitorPlay",
+    "MonitorPlayIcon",
+    "MonitorSmartphone",
+    "MonitorSmartphoneIcon",
+    "Moon",
+    "MoonIcon",
+    "MoreHorizontal",
+    "MoreHorizontalIcon",
+    "MoreVertical",
+    "MoreVerticalIcon",
+    "Music",
+    "MusicIcon",
+    "Network",
+    "NetworkIcon",
+    "Newspaper",
+    "NewspaperIcon",
+    "Nfc",
+    "NfcIcon",
+    "NotebookPen",
+    "NotebookPenIcon",
+    "OctagonAlert",
+    "OctagonAlertIcon",
+    "OctagonX",
+    "OctagonXIcon",
+    "Otp",
+    "OtpIcon",
+    "Package",
+    "PackageIcon",
+    "Palette",
+    "PaletteIcon",
+    "PanelLeft",
+    "PanelLeftIcon",
+    "Paperclip",
+    "PaperclipIcon",
+    "Parent",
+    "ParentIcon",
+    "PartyPopper",
+    "PartyPopperIcon",
+    "Passkey",
+    "PasskeyIcon",
+    "Pause",
+    "PauseCircle",
+    "PauseCircleIcon",
+    "PauseIcon",
+    "PenLine",
+    "PenLineIcon",
+    "PenTool",
+    "PenToolIcon",
+    "Pencil",
+    "PencilIcon",
+    "PencilLine",
+    "PencilLineIcon",
+    "Percent",
+    "PercentIcon",
+    "Phone",
+    "PhoneCall",
+    "PhoneCallIcon",
+    "PhoneForwarded",
+    "PhoneForwardedIcon",
+    "PhoneIcon",
+    "PhoneIncoming",
+    "PhoneIncomingIcon",
+    "PhoneMissed",
+    "PhoneMissedIcon",
+    "PhoneOff",
+    "PhoneOffIcon",
+    "PhoneOutgoing",
+    "PhoneOutgoingIcon",
+    "PieChart",
+    "PieChartIcon",
+    "Pin",
+    "PinIcon",
+    "PinOff",
+    "PinOffIcon",
+    "Plane",
+    "PlaneIcon",
+    "Play",
+    "PlayCircle",
+    "PlayCircleIcon",
+    "PlayIcon",
+    "Plug",
+    "PlugIcon",
+    "PlugZap",
+    "PlugZapIcon",
+    "Plus",
+    "PlusIcon",
+    "Power",
+    "PowerIcon",
+    "Presentation",
+    "PresentationIcon",
+    "Printer",
+    "PrinterIcon",
+    "Puzzle",
+    "PuzzleIcon",
+    "QrCode",
+    "QrCodeIcon",
+    "Radio",
+    "RadioIcon",
+    "Receipt",
+    "ReceiptIcon",
+    "ReceiptIndianRupee",
+    "ReceiptIndianRupeeIcon",
+    "ReceiptText",
+    "ReceiptTextIcon",
+    "Record",
+    "RecordIcon",
+    "RefreshCw",
+    "RefreshCwIcon",
+    "Repeat",
+    "RepeatIcon",
+    "ReportCard",
+    "ReportCardIcon",
+    "Rocket",
+    "RocketIcon",
+    "RotateCcw",
+    "RotateCcwIcon",
+    "RotateCw",
+    "RotateCwIcon",
+    "Route",
+    "RouteIcon",
+    "Save",
+    "SaveIcon",
+    "ScanFace",
+    "ScanFaceIcon",
+    "School",
+    "SchoolIcon",
+    "Scissors",
+    "ScissorsIcon",
+    "ScrollText",
+    "ScrollTextIcon",
+    "Search",
+    "SearchIcon",
+    "SearchX",
+    "SearchXIcon",
+    "SecurityKey",
+    "SecurityKeyIcon",
+    "Send",
+    "SendHorizontal",
+    "SendHorizontalIcon",
+    "SendIcon",
+    "Server",
+    "ServerCog",
+    "ServerCogIcon",
+    "ServerIcon",
+    "Settings",
+    "Settings2",
+    "Settings2Icon",
+    "SettingsIcon",
+    "Shapes",
+    "ShapesIcon",
+    "Share",
+    "ShareIcon",
+    "Shield",
+    "ShieldAlert",
+    "ShieldAlertIcon",
+    "ShieldBan",
+    "ShieldBanIcon",
+    "ShieldCheck",
+    "ShieldCheckIcon",
+    "ShieldIcon",
+    "ShieldLock",
+    "ShieldLockIcon",
+    "ShieldOff",
+    "ShieldOffIcon",
+    "ShieldQuestion",
+    "ShieldQuestionIcon",
+    "ShieldX",
+    "ShieldXIcon",
+    "Sigma",
+    "SigmaIcon",
+    "Signal",
+    "SignalIcon",
+    "Siren",
+    "SirenIcon",
+    "SkipBack",
+    "SkipBackIcon",
+    "SkipForward",
+    "SkipForwardIcon",
+    "SlidersHorizontal",
+    "SlidersHorizontalIcon",
+    "Smartphone",
+    "SmartphoneIcon",
+    "Smile",
+    "SmileIcon",
+    "Sms",
+    "SmsIcon",
+    "Sparkles",
+    "SparklesIcon",
+    "Sprout",
+    "SproutIcon",
+    "Square",
+    "SquareIcon",
+    "Star",
+    "StarIcon",
+    "Student",
+    "StudentIcon",
+    "Sun",
+    "SunIcon",
+    "SunMedium",
+    "SunMediumIcon",
+    "Table2",
+    "Table2Icon",
+    "Tablet",
+    "TabletIcon",
+    "Tag",
+    "TagIcon",
+    "Tags",
+    "TagsIcon",
+    "Target",
+    "TargetIcon",
+    "Teacher",
+    "TeacherIcon",
+    "Terminal",
+    "TerminalIcon",
+    "ThumbsDown",
+    "ThumbsDownIcon",
+    "ThumbsUp",
+    "ThumbsUpIcon",
+    "Timer",
+    "TimerIcon",
+    "TimerReset",
+    "TimerResetIcon",
+    "Timetable",
+    "TimetableIcon",
+    "ToggleRight",
+    "ToggleRightIcon",
+    "Trash2",
+    "Trash2Icon",
+    "TrendingDown",
+    "TrendingDownIcon",
+    "TrendingUp",
+    "TrendingUpIcon",
+    "TriangleAlert",
+    "TriangleAlertIcon",
+    "Trophy",
+    "TrophyIcon",
+    "Umbrella",
+    "UmbrellaIcon",
+    "Undo2",
+    "Undo2Icon",
+    "Unlink",
+    "UnlinkIcon",
+    "Unlock",
+    "UnlockIcon",
+    "Upload",
+    "UploadCloud",
+    "UploadCloudIcon",
+    "UploadIcon",
+    "User",
+    "UserCheck",
+    "UserCheckIcon",
+    "UserCircle",
+    "UserCircleIcon",
+    "UserCog",
+    "UserCogIcon",
+    "UserIcon",
+    "UserMinus",
+    "UserMinusIcon",
+    "UserPlus",
+    "UserPlusIcon",
+    "UserRound",
+    "UserRoundCheck",
+    "UserRoundCheckIcon",
+    "UserRoundIcon",
+    "UserX",
+    "UserXIcon",
+    "Users",
+    "UsersIcon",
+    "UsersRound",
+    "UsersRoundIcon",
+    "Video",
+    "VideoIcon",
+    "Voicemail",
+    "VoicemailIcon",
+    "Volume",
+    "Volume2",
+    "Volume2Icon",
+    "VolumeIcon",
+    "VolumeX",
+    "VolumeXIcon",
+    "Wallet",
+    "WalletIcon",
+    "Wand2",
+    "Wand2Icon",
+    "Waveform",
+    "WaveformIcon",
+    "Webhook",
+    "WebhookIcon",
+    "Wifi",
+    "WifiIcon",
+    "WifiOff",
+    "WifiOffIcon",
+    "Workflow",
+    "WorkflowIcon",
+    "Wrench",
+    "WrenchIcon",
+    "X",
+    "XCircle",
+    "XCircleIcon",
+    "XIcon",
+    "Zap",
+    "ZapIcon",
+    "createMojoIcon"
+  ],
+  "types": [
+    "IconProps",
+    "Icon",
+    "IconNode",
+    "LucideIcon",
+    "LucideProps"
+  ]
+}

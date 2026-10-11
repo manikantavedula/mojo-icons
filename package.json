@@ -1,0 +1,53 @@
+{
+  "name": "@axismojo/icons",
+  "version": "1.0.0",
+  "description": "Mojo Icons: the Axis Mojo icon set (Lucide-compatible React components) used by Aula Melo, Aural Mint, Access Meru and Jamun Origin.",
+  "license": "UNLICENSED",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./svg/*": "./svg/*",
+    "./manifest.json": "./manifest.json"
+  },
+  "files": [
+    "dist",
+    "svg",
+    "manifest.json",
+    "codemod.mjs",
+    "README.md"
+  ],
+  "bin": {
+    "mojo-icons-codemod": "./codemod.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manikantavedula/mojo-icons.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "scripts": {
+    "generate": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs && rm -rf dist && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.build.json --noEmit",
+    "changeset": "changeset",
+    "release": "npm run build && changeset publish"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.0",
+    "@types/react": "^19.0.0",
+    "react": "^19.0.0",
+    "typescript": "^5.8.0"
+  }
+}
