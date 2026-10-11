@@ -1,0 +1,19 @@
+{
+  "$comment": "Extra export names (alias -> icon). Keeps the Lucide names the apps already import, including older names and *Icon variants.",
+  "aliases": {
+    "AlertCircle": "CircleAlert",
+    "AlertTriangle": "TriangleAlert",
+    "AlertOctagon": "OctagonAlert",
+    "CheckCircle2": "CircleCheck",
+    "XCircle": "CircleX",
+    "HelpCircle": "CircleHelp",
+    "Globe2": "Globe",
+    "UserRound": "User",
+    "UsersRound": "Users",
+    "UserCircle": "CircleUser",
+    "Ellipsis": "MoreHorizontal",
+    "EllipsisVertical": "MoreVertical",
+    "LoaderCircle": "Loader2",
+    "UserRoundCheck": "UserCheck"
+  }
+}

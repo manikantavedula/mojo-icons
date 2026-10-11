@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M20.42 8.04l-3.45.61L15.35 7.03l.61-3.45a5.5 5.5 0 0 0-5.99 7.63L4.4 16.78A2 2 0 0 0 7.22 19.6l5.57-5.57a5.5 5.5 0 0 0 7.63-5.99z"/>
+  <circle cx="19.5" cy="4.5" r="1.6" fill="var(--mojo-accent, currentColor)" stroke="none"/>
+</svg>
