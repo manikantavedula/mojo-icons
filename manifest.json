@@ -1,6 +1,6 @@
 {
   "name": "@axismojo/icons",
-  "count": 383,
+  "count": 393,
   "icons": [
     {
       "name": "Activity",
@@ -115,6 +115,11 @@
     {
       "name": "Award",
       "file": "svg/award.svg",
+      "aliases": []
+    },
+    {
+      "name": "Baby",
+      "file": "svg/baby.svg",
       "aliases": []
     },
     {
@@ -603,6 +608,16 @@
       "aliases": []
     },
     {
+      "name": "Family",
+      "file": "svg/family.svg",
+      "aliases": []
+    },
+    {
+      "name": "FerrisWheel",
+      "file": "svg/ferris-wheel.svg",
+      "aliases": []
+    },
+    {
       "name": "FileCode",
       "file": "svg/file-code.svg",
       "aliases": []
@@ -822,8 +837,18 @@
       "aliases": []
     },
     {
+      "name": "ImagePlus",
+      "file": "svg/image-plus.svg",
+      "aliases": []
+    },
+    {
       "name": "Image",
       "file": "svg/image.svg",
+      "aliases": []
+    },
+    {
+      "name": "Images",
+      "file": "svg/images.svg",
       "aliases": []
     },
     {
@@ -1043,6 +1068,11 @@
       "aliases": []
     },
     {
+      "name": "Market",
+      "file": "svg/market.svg",
+      "aliases": []
+    },
+    {
       "name": "Maximize",
       "file": "svg/maximize.svg",
       "aliases": []
@@ -1256,6 +1286,11 @@
     {
       "name": "Pause",
       "file": "svg/pause.svg",
+      "aliases": []
+    },
+    {
+      "name": "PawPrint",
+      "file": "svg/paw-print.svg",
       "aliases": []
     },
     {
@@ -1608,6 +1643,11 @@
       "aliases": []
     },
     {
+      "name": "ShoppingBag",
+      "file": "svg/shopping-bag.svg",
+      "aliases": []
+    },
+    {
       "name": "Sigma",
       "file": "svg/sigma.svg",
       "aliases": []
@@ -1697,6 +1737,11 @@
     {
       "name": "Sun",
       "file": "svg/sun.svg",
+      "aliases": []
+    },
+    {
+      "name": "SwitchCamera",
+      "file": "svg/switch-camera.svg",
       "aliases": []
     },
     {
@@ -1880,6 +1925,11 @@
       ]
     },
     {
+      "name": "Utensils",
+      "file": "svg/utensils.svg",
+      "aliases": []
+    },
+    {
       "name": "Video",
       "file": "svg/video.svg",
       "aliases": []
@@ -2013,6 +2063,8 @@
     "AulaArchIcon",
     "Award",
     "AwardIcon",
+    "Baby",
+    "BabyIcon",
     "Backpack",
     "BackpackIcon",
     "BadgeCheck",
@@ -2213,6 +2265,10 @@
     "EyeIcon",
     "EyeOff",
     "EyeOffIcon",
+    "Family",
+    "FamilyIcon",
+    "FerrisWheel",
+    "FerrisWheelIcon",
     "File",
     "FileCode",
     "FileCodeIcon",
@@ -2307,6 +2363,10 @@
     "IdIcon",
     "Image",
     "ImageIcon",
+    "ImagePlus",
+    "ImagePlusIcon",
+    "Images",
+    "ImagesIcon",
     "Inbox",
     "InboxIcon",
     "IndianRupee",
@@ -2395,6 +2455,8 @@
     "MapPinOffIcon",
     "MapPinPlus",
     "MapPinPlusIcon",
+    "Market",
+    "MarketIcon",
     "Maximize",
     "MaximizeIcon",
     "Megaphone",
@@ -2479,6 +2541,8 @@
     "PauseCircle",
     "PauseCircleIcon",
     "PauseIcon",
+    "PawPrint",
+    "PawPrintIcon",
     "PenLine",
     "PenLineIcon",
     "PenTool",
@@ -2617,6 +2681,8 @@
     "ShieldQuestionIcon",
     "ShieldX",
     "ShieldXIcon",
+    "ShoppingBag",
+    "ShoppingBagIcon",
     "Sigma",
     "SigmaIcon",
     "Signal",
@@ -2655,6 +2721,8 @@
     "SunIcon",
     "SunMedium",
     "SunMediumIcon",
+    "SwitchCamera",
+    "SwitchCameraIcon",
     "Table2",
     "Table2Icon",
     "Tablet",
@@ -2735,6 +2803,8 @@
     "UsersIcon",
     "UsersRound",
     "UsersRoundIcon",
+    "Utensils",
+    "UtensilsIcon",
     "Video",
     "VideoIcon",
     "Viewfinder",
