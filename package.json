@@ -1,6 +1,6 @@
 {
   "name": "@axismojo/icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Mojo Icons: the Axis Mojo icon set (Lucide-compatible React components) used by Aula Melo, Aural Mint, Access Meru and Jamun Origin.",
   "license": "UNLICENSED",
   "type": "module",
