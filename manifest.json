@@ -1,7 +1,12 @@
 {
   "name": "@axismojo/icons",
-  "count": 393,
+  "count": 400,
   "icons": [
+    {
+      "name": "Accessible",
+      "file": "svg/accessible.svg",
+      "aliases": []
+    },
     {
       "name": "Activity",
       "file": "svg/activity.svg",
@@ -388,6 +393,11 @@
       "aliases": []
     },
     {
+      "name": "Child",
+      "file": "svg/child.svg",
+      "aliases": []
+    },
+    {
       "name": "CircleAlert",
       "file": "svg/circle-alert.svg",
       "aliases": [
@@ -525,6 +535,11 @@
     {
       "name": "Corner",
       "file": "svg/corner.svg",
+      "aliases": []
+    },
+    {
+      "name": "Couple",
+      "file": "svg/couple.svg",
       "aliases": []
     },
     {
@@ -859,6 +874,11 @@
     {
       "name": "IndianRupee",
       "file": "svg/indian-rupee.svg",
+      "aliases": []
+    },
+    {
+      "name": "Indoors",
+      "file": "svg/indoors.svg",
       "aliases": []
     },
     {
@@ -1269,6 +1289,11 @@
       "aliases": []
     },
     {
+      "name": "Parking",
+      "file": "svg/parking.svg",
+      "aliases": []
+    },
+    {
       "name": "PartyPopper",
       "file": "svg/party-popper.svg",
       "aliases": []
@@ -1316,6 +1341,11 @@
     {
       "name": "Percent",
       "file": "svg/percent.svg",
+      "aliases": []
+    },
+    {
+      "name": "PersonStanding",
+      "file": "svg/person-standing.svg",
       "aliases": []
     },
     {
@@ -1478,6 +1508,11 @@
     {
       "name": "ReportCard",
       "file": "svg/report-card.svg",
+      "aliases": []
+    },
+    {
+      "name": "Restroom",
+      "file": "svg/restroom.svg",
       "aliases": []
     },
     {
@@ -2011,6 +2046,8 @@
     }
   ],
   "exports": [
+    "Accessible",
+    "AccessibleIcon",
     "Activity",
     "ActivityIcon",
     "AlarmClock",
@@ -2177,6 +2214,8 @@
     "ChevronsRightIcon",
     "ChevronsUpDown",
     "ChevronsUpDownIcon",
+    "Child",
+    "ChildIcon",
     "Circle",
     "CircleAlert",
     "CircleAlertIcon",
@@ -2229,6 +2268,8 @@
     "CopyIcon",
     "Corner",
     "CornerIcon",
+    "Couple",
+    "CoupleIcon",
     "Cpu",
     "CpuIcon",
     "CreditCard",
@@ -2371,6 +2412,8 @@
     "InboxIcon",
     "IndianRupee",
     "IndianRupeeIcon",
+    "Indoors",
+    "IndoorsIcon",
     "Info",
     "InfoIcon",
     "Jamun",
@@ -2533,6 +2576,8 @@
     "PaperclipIcon",
     "Parent",
     "ParentIcon",
+    "Parking",
+    "ParkingIcon",
     "PartyPopper",
     "PartyPopperIcon",
     "Passkey",
@@ -2553,6 +2598,8 @@
     "PencilLineIcon",
     "Percent",
     "PercentIcon",
+    "PersonStanding",
+    "PersonStandingIcon",
     "Phone",
     "PhoneCall",
     "PhoneCallIcon",
@@ -2617,6 +2664,8 @@
     "RepeatIcon",
     "ReportCard",
     "ReportCardIcon",
+    "Restroom",
+    "RestroomIcon",
     "RewardLock",
     "RewardLockIcon",
     "Rocket",

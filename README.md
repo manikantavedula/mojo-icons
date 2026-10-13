@@ -1,6 +1,6 @@
 # Mojo Icons (`@axismojo/icons`)
 
-The Axis Mojo icon set: 393 icons as Lucide-compatible React components, used by Aula Melo, Aural Mint, Access Meru
+The Axis Mojo icon set: 400 icons as Lucide-compatible React components, used by Aula Melo, Aural Mint, Access Meru
 and Jamun Origin. Every icon has the Mojo accent dot.
 
 ```bash
