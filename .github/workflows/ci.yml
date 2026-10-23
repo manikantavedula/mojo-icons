@@ -1,10 +1,10 @@
 # Every pull request: the icons follow the Mojo style rules, the package builds, and a release note is present.
 name: CI
 
+# Runs only by hand (Actions → this workflow → Run workflow), to save the account's Actions minutes. Checks run
+# on the laptop before pushing: scripts/ship.sh.
 on:
-  pull_request:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
   icons:

@@ -38,7 +38,8 @@
     "build": "node scripts/build.mjs && rm -rf dist && tsc -p tsconfig.build.json",
     "typecheck": "tsc -p tsconfig.build.json --noEmit",
     "changeset": "changeset",
-    "release": "npm run build && changeset publish"
+    "release": "npm run build && changeset publish",
+    "ship": "bash scripts/ship.sh"
   },
   "peerDependencies": {
     "react": ">=18"
