@@ -42,9 +42,20 @@ preview.html    a contact sheet of every icon
 
 ## Releasing
 
-Nothing is published by hand. When pull requests with changesets reach `main`, the Release workflow opens a
-**Version Packages** pull request that raises the version and writes `CHANGELOG.md`. Merging it publishes to npm.
-The apps get the new version through Dependabot.
+Versions come from changesets, never by hand. To release: **Actions → Release → Run workflow** on `main`. With
+pending changesets it opens a **Version Packages** pull request that raises the version and writes `CHANGELOG.md`;
+merge it, then run the Release workflow again to publish to npm. The apps get the new version through Dependabot
+(monthly).
 
 Needs once: the `axismojo` organisation on npmjs.com, and an `NPM_TOKEN` repository secret (a granular token
 that can publish `@axismojo/icons`).
+
+## Checks before pushing
+
+GitHub Actions no longer runs on every push, to save the account's minutes. Run every check here first:
+
+```bash
+npm run ship
+```
+
+The workflows in `.github/workflows` still run by hand from the Actions tab. Releasing to npm is by hand too: see **Releasing** above.

@@ -1,11 +1,10 @@
-# On main: if there are pending changesets, open (or update) the "Version Packages" pull request; when that pull
-# request is merged, publish the new version to npm.
+# Releases to npm with changesets. Run it by hand from main (Actions → Release → Run workflow): with pending
+# changesets it opens (or updates) the "Version Packages" pull request; merge that, then run it again to publish.
 name: Release
 
+# Runs only by hand (Actions → this workflow → Run workflow), to save the account's Actions minutes. Checks run
+# on the laptop before pushing: scripts/ship.sh.
 on:
-  push:
-    branches: [main]
-  # run it again by hand (Actions → Release → Run workflow), e.g. after adding the NPM_TOKEN secret
   workflow_dispatch:
 
 concurrency: release-${{ github.ref }}
