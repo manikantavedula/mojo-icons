@@ -1,6 +1,6 @@
 {
   "name": "@axismojo/icons",
-  "count": 400,
+  "count": 405,
   "icons": [
     {
       "name": "Accessible",
@@ -560,6 +560,16 @@
     {
       "name": "Crown",
       "file": "svg/crown.svg",
+      "aliases": []
+    },
+    {
+      "name": "DatabaseBackup",
+      "file": "svg/database-backup.svg",
+      "aliases": []
+    },
+    {
+      "name": "DatabasePlus",
+      "file": "svg/database-plus.svg",
       "aliases": []
     },
     {
@@ -1168,6 +1178,11 @@
       "aliases": []
     },
     {
+      "name": "Migration",
+      "file": "svg/migration.svg",
+      "aliases": []
+    },
+    {
       "name": "Minimize",
       "file": "svg/minimize.svg",
       "aliases": []
@@ -1613,6 +1628,11 @@
       "aliases": []
     },
     {
+      "name": "ServerPlus",
+      "file": "svg/server-plus.svg",
+      "aliases": []
+    },
+    {
       "name": "Server",
       "file": "svg/server.svg",
       "aliases": []
@@ -1782,6 +1802,11 @@
     {
       "name": "Table2",
       "file": "svg/table-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "TableRowPlus",
+      "file": "svg/table-row-plus.svg",
       "aliases": []
     },
     {
@@ -2279,7 +2304,11 @@
     "Crown",
     "CrownIcon",
     "Database",
+    "DatabaseBackup",
+    "DatabaseBackupIcon",
     "DatabaseIcon",
+    "DatabasePlus",
+    "DatabasePlusIcon",
     "Dialpad",
     "DialpadIcon",
     "DoorOpen",
@@ -2530,6 +2559,8 @@
     "MicOffIcon",
     "Microscope",
     "MicroscopeIcon",
+    "Migration",
+    "MigrationIcon",
     "Minimize",
     "MinimizeIcon",
     "MintWave",
@@ -2706,6 +2737,8 @@
     "ServerCog",
     "ServerCogIcon",
     "ServerIcon",
+    "ServerPlus",
+    "ServerPlusIcon",
     "Settings",
     "Settings2",
     "Settings2Icon",
@@ -2774,6 +2807,8 @@
     "SwitchCameraIcon",
     "Table2",
     "Table2Icon",
+    "TableRowPlus",
+    "TableRowPlusIcon",
     "Tablet",
     "TabletIcon",
     "Tag",
