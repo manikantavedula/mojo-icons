@@ -3,8 +3,8 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `DatabasePlus` (svg/database-plus.svg) */
 export const DatabasePlus = /* @__PURE__ */ createMojoIcon('database-plus', [
-  ["path", { d: "M4 5c0-1.4 3.6-2.5 8-2.5c4.4 0 8 1.1 8 2.5c0 1.4-3.6 2.5-8 2.5c-4.4 0-8-1.1-8-2.5zm0 0v14c0 1.4 3.6 2.5 8 2.5M20 5v7M4 12c0 1.4 3.6 2.5 8 2.5c4.4 0 8-1.1 8-2.5" }],
-  ["path", { d: "M18.5 15v6.5m-3.25-3.25h6.5" }],
+  ["path", { d: "M4 5a8 2.5 0 1 0 16 0a8 2.5 0 1 0-16 0v14a8 2.5 0 0 0 8 2.5a8 2.5 0 0 0 2.3 -0.11M20 5V12.15M4 12a8 2.5 0 0 0 8 2.5a8 2.5 0 0 0 1.05 -0.02" }],
+  ["path", { d: "M17.5 14.25v6.5M14.25 17.5h6.5" }],
   ["circle", { cx: "12", cy: "11", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
 ])
 

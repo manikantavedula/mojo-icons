@@ -3,8 +3,8 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `Migration` (svg/migration.svg) */
 export const Migration = /* @__PURE__ */ createMojoIcon('migration', [
-  ["path", { d: "M4 5c0-1.4 3.6-2.5 8-2.5c4.4 0 8 1.1 8 2.5c0 1.4-3.6 2.5-8 2.5c-4.4 0-8-1.1-8-2.5zm0 0v14c0 1.4 3.6 2.5 8 2.5M20 5v7M4 12c0 1.4 3.6 2.5 8 2.5c4.4 0 8-1.1 8-2.5" }],
-  ["path", { d: "M18.5 21.5V15M16 17.5L18.5 15L21 17.5" }],
+  ["path", { d: "M4 5a8 2.5 0 1 0 16 0a8 2.5 0 1 0-16 0v14a8 2.5 0 0 0 8 2.5a8 2.5 0 0 0 2.25 -0.1M20 5V11.9M4 12a8 2.5 0 0 0 8 2.5a8 2.5 0 0 0 0.4 -0" }],
+  ["path", { d: "M17.5 21V14M15 16.5L17.5 14L20 16.5" }],
   ["circle", { cx: "12", cy: "11", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
 ])
 
