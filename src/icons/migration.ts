@@ -3,9 +3,9 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `Migration` (svg/migration.svg) */
 export const Migration = /* @__PURE__ */ createMojoIcon('migration', [
-  ["path", { d: "M3 4.5c0-1.1 2.5-2 5.5-2s5.5.9 5.5 2s-2.5 2-5.5 2s-5.5-.9-5.5-2zm0 0V17c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2V4.5M3 9.5c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2" }],
-  ["path", { d: "M19 21V9.5M16 12.5L19 9.5L22 12.5" }],
-  ["circle", { cx: "8.5", cy: "15.4", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
+  ["path", { d: "M4 5c0-1.4 3.6-2.5 8-2.5c4.4 0 8 1.1 8 2.5c0 1.4-3.6 2.5-8 2.5c-4.4 0-8-1.1-8-2.5zm0 0v14c0 1.4 3.6 2.5 8 2.5M20 5v7M4 12c0 1.4 3.6 2.5 8 2.5c4.4 0 8-1.1 8-2.5" }],
+  ["path", { d: "M18.5 21.5V15M16 17.5L18.5 15L21 17.5" }],
+  ["circle", { cx: "12", cy: "11", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
 ])
 
 export default Migration

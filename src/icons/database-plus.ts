@@ -3,9 +3,9 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `DatabasePlus` (svg/database-plus.svg) */
 export const DatabasePlus = /* @__PURE__ */ createMojoIcon('database-plus', [
-  ["path", { d: "M3 4.5c0-1.1 2.5-2 5.5-2s5.5.9 5.5 2s-2.5 2-5.5 2s-5.5-.9-5.5-2zm0 0V17c0 1.1 2.5 2 5.5 2c.9 0 1.8-.1 2.5-.2M14 4.5V12M3 9.5c0 1.1 2.5 2 5.5 2s5.5-.9 5.5-2" }],
-  ["path", { d: "M18 14.5v7M14.5 18h7" }],
-  ["circle", { cx: "8.5", cy: "15.4", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
+  ["path", { d: "M4 5c0-1.4 3.6-2.5 8-2.5c4.4 0 8 1.1 8 2.5c0 1.4-3.6 2.5-8 2.5c-4.4 0-8-1.1-8-2.5zm0 0v14c0 1.4 3.6 2.5 8 2.5M20 5v7M4 12c0 1.4 3.6 2.5 8 2.5c4.4 0 8-1.1 8-2.5" }],
+  ["path", { d: "M18.5 15v6.5m-3.25-3.25h6.5" }],
+  ["circle", { cx: "12", cy: "11", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
 ])
 
 export default DatabasePlus

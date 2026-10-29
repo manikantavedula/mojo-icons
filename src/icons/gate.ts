@@ -3,8 +3,8 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `Gate` (svg/gate.svg) */
 export const Gate = /* @__PURE__ */ createMojoIcon('gate', [
-  ["path", { d: "M4 21V8C4 6 7.6 4 12 4S20 6 20 8V21M4 13H20M9.3 13V21M14.7 13V21" }],
-  ["circle", { cx: "12", cy: "8.5", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
+  ["path", { d: "M4 21V8C4 5.8 7.6 4 12 4S20 5.8 20 8V21M4 11.5H20M12 11.5V21" }],
+  ["circle", { cx: "12", cy: "7.8", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
 ])
 
 export default Gate
