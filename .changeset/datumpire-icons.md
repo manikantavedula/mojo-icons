@@ -2,4 +2,4 @@
 "@axismojo/icons": minor
 ---
 
-Five new icons for Datumpire's console: DatabasePlus (new project), DatabaseBackup (back up now), TableRowPlus (insert a row), Migration (apply a schema migration) and ServerPlus (add a database server).
+Seven new icons for Datumpire's console: DatabasePlus (lay a new ground), DatabaseBackup (keep a backup), TableRowPlus (add an entry), Migration (lay a schema layer), ServerPlus (add a venue), Ground (a project, a cricket ground seen from above) and Gate (where tokens are checked).
