@@ -24,9 +24,12 @@ jobs:
           node-version: 22
           cache: npm
           registry-url: https://registry.npmjs.org
+      # trusted publishing (OIDC, no npm token to store or renew) needs npm 11.5.1 or later; Node 22 ships npm 10
+      - run: npm install -g npm@11.21.1
       - run: npm ci
-      # changesets/action v2: inputs are kebab-case and renamed, the GitHub token is an input, and npm is authenticated
-      # by setup-node's registry-url above (the .npmrc it writes reads NODE_AUTH_TOKEN)
+      # changesets/action v2: inputs are kebab-case and renamed, and the GitHub token is an input. npm is authenticated
+      # by trusted publishing: npmjs.com trusts this repository's release.yml, and the job's id-token permission lets
+      # npm prove it is this workflow. No NPM_TOKEN secret is used (npm removes token publishing in January 2027).
       - uses: changesets/action@v2
         with:
           version-script: npx changeset version
@@ -34,5 +37,3 @@ jobs:
           pr-title: Version Packages
           commit-message: Version Packages
           github-token: ${{ secrets.GITHUB_TOKEN }}
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
