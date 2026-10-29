@@ -3,9 +3,9 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `DatabaseBackup` (svg/database-backup.svg) */
 export const DatabaseBackup = /* @__PURE__ */ createMojoIcon('database-backup', [
-  ["path", { d: "M4 5c0-1.4 3.6-2.5 8-2.5c4.4 0 8 1.1 8 2.5c0 1.4-3.6 2.5-8 2.5c-4.4 0-8-1.1-8-2.5zm0 0v14c0 1.4 3.6 2.5 8 2.5M20 5v7M4 12c0 1.4 3.6 2.5 8 2.5c4.4 0 8-1.1 8-2.5" }],
-  ["path", { d: "M21.5 18.25a3.25 3.25 0 1 1-1.05-2.4M21 15v1.75h-1.75" }],
-  ["circle", { cx: "12", cy: "11", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
+  ["path", { d: "M4 5c0-1.4 3.6-2.5 8-2.5c4.4 0 8 1.1 8 2.5c0 1.4-3.6 2.5-8 2.5c-4.4 0-8-1.1-8-2.5zm0 0v14c0 1.2 2.3 2.2 5.5 2.45M20 5v4.5M4 12c0 1.2 2.4 2.15 5.6 2.43" }],
+  ["path", { d: "M13.4 19.4a4.5 4.5 0 1 0-.3-4.7M12.6 11.6l.5 3.1l3.1-.5" }],
+  ["circle", { cx: "17.4", cy: "17", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
 ])
 
 export default DatabaseBackup

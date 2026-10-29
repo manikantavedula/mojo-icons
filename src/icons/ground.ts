@@ -3,8 +3,8 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `Ground` (svg/ground.svg) */
 export const Ground = /* @__PURE__ */ createMojoIcon('ground', [
-  ["path", { d: "M7 9V21M11.5 9V21M16 9V21M6 5.5H10.75M12.25 5.5H17" }],
-  ["circle", { cx: "19.8", cy: "17", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
+  ["path", { d: "M6.25 9.5V18M11.25 9.5V18M16.25 9.5V18M5.75 6.5h4M12.75 6.5h4M2.5 21h18" }],
+  ["circle", { cx: "19.6", cy: "16.6", r: "1.6", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
 ])
 
 export default Ground
