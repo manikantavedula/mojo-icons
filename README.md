@@ -47,8 +47,10 @@ pending changesets it opens a **Version Packages** pull request that raises the 
 merge it, then run the Release workflow again to publish to npm. The apps get the new version through Dependabot
 (monthly).
 
-Needs once: the `axismojo` organisation on npmjs.com, and an `NPM_TOKEN` repository secret (a granular token
-that can publish `@axismojo/icons`).
+Needs once: the `axismojo` organisation on npmjs.com, and a **trusted publisher** on the package (npmjs.com →
+`@axismojo/icons` → Settings → Trusted Publisher → GitHub Actions: user `manikantavedula`, repository `mojo-icons`,
+workflow `release.yml`, with direct `npm publish` allowed). No npm token is stored anywhere: the workflow proves to
+npm that it is this repository's `release.yml` (OIDC). npm removes publishing with a stored token in January 2027.
 
 ## Checks before pushing
 
