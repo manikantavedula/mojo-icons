@@ -1,6 +1,6 @@
 {
   "name": "@axismojo/icons",
-  "count": 400,
+  "count": 407,
   "icons": [
     {
       "name": "Accessible",
@@ -563,6 +563,16 @@
       "aliases": []
     },
     {
+      "name": "DatabaseBackup",
+      "file": "svg/database-backup.svg",
+      "aliases": []
+    },
+    {
+      "name": "DatabasePlus",
+      "file": "svg/database-plus.svg",
+      "aliases": []
+    },
+    {
       "name": "Database",
       "file": "svg/database.svg",
       "aliases": []
@@ -750,6 +760,11 @@
       "aliases": []
     },
     {
+      "name": "Gate",
+      "file": "svg/gate.svg",
+      "aliases": []
+    },
+    {
       "name": "Gauge",
       "file": "svg/gauge.svg",
       "aliases": []
@@ -784,6 +799,11 @@
     {
       "name": "GripVertical",
       "file": "svg/grip-vertical.svg",
+      "aliases": []
+    },
+    {
+      "name": "Ground",
+      "file": "svg/ground.svg",
       "aliases": []
     },
     {
@@ -1165,6 +1185,11 @@
     {
       "name": "Microscope",
       "file": "svg/microscope.svg",
+      "aliases": []
+    },
+    {
+      "name": "Migration",
+      "file": "svg/migration.svg",
       "aliases": []
     },
     {
@@ -1613,6 +1638,11 @@
       "aliases": []
     },
     {
+      "name": "ServerPlus",
+      "file": "svg/server-plus.svg",
+      "aliases": []
+    },
+    {
       "name": "Server",
       "file": "svg/server.svg",
       "aliases": []
@@ -1782,6 +1812,11 @@
     {
       "name": "Table2",
       "file": "svg/table-2.svg",
+      "aliases": []
+    },
+    {
+      "name": "TableRowPlus",
+      "file": "svg/table-row-plus.svg",
       "aliases": []
     },
     {
@@ -2279,7 +2314,11 @@
     "Crown",
     "CrownIcon",
     "Database",
+    "DatabaseBackup",
+    "DatabaseBackupIcon",
     "DatabaseIcon",
+    "DatabasePlus",
+    "DatabasePlusIcon",
     "Dialpad",
     "DialpadIcon",
     "DoorOpen",
@@ -2358,6 +2397,8 @@
     "FruitRipeIcon",
     "FruitRipening",
     "FruitRipeningIcon",
+    "Gate",
+    "GateIcon",
     "Gauge",
     "GaugeIcon",
     "Gem",
@@ -2374,6 +2415,8 @@
     "GraduationCapIcon",
     "GripVertical",
     "GripVerticalIcon",
+    "Ground",
+    "GroundIcon",
     "Hand",
     "HandCoins",
     "HandCoinsIcon",
@@ -2530,6 +2573,8 @@
     "MicOffIcon",
     "Microscope",
     "MicroscopeIcon",
+    "Migration",
+    "MigrationIcon",
     "Minimize",
     "MinimizeIcon",
     "MintWave",
@@ -2706,6 +2751,8 @@
     "ServerCog",
     "ServerCogIcon",
     "ServerIcon",
+    "ServerPlus",
+    "ServerPlusIcon",
     "Settings",
     "Settings2",
     "Settings2Icon",
@@ -2774,6 +2821,8 @@
     "SwitchCameraIcon",
     "Table2",
     "Table2Icon",
+    "TableRowPlus",
+    "TableRowPlusIcon",
     "Tablet",
     "TabletIcon",
     "Tag",
