@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
   <path d="M6.5 21V11a5.5 5.5 0 0 1 11 0v10z" fill="var(--mojo-accent, currentColor)" stroke="none"/>
-  <path d="M6.5 21v-3M6.5 12v-1a5.5 5.5 0 0 1 11 0v10M3.5 21h17M3 15h2.5"/>
-  <path d="M9.3 12l2.8 3l-2.8 3M6.5 15h5.6" stroke="var(--mojo-knob, #14233f)"/>
+  <path d="M6.5 21v-3M6.5 12v-1a5.5 5.5 0 0 1 11 0v10M3.5 21h17M3 15h8.6M9.3 12l2.8 3l-2.8 3"/>
   <circle cx="14.8" cy="15" r="1" fill="var(--mojo-knob, #14233f)" stroke="none"/>
 </svg>
