@@ -34,7 +34,7 @@ scripts/        build.mjs (svg → src), check.mjs (style and coverage rules)
 preview.html    a contact sheet of every icon
 ```
 
-1. Add or change a drawing in `svg/` (24×24, stroke 2, round caps and joins, one accent dot).
+1. Add or change a drawing in `svg/` (24×24, stroke 2, round caps and joins, one accent dot). One exception: `door-enter` draws sesameru's door, so its accent is a filled door shape, and `scripts/check.mjs` lists it in `ACCENT_SHAPE_ICONS`.
 2. `npm run check` (the style rules) and `npm run build`.
 3. `npx changeset`: patch for a fixed drawing, minor for new icons, major for a removed or renamed icon; one line
    on what changed.
