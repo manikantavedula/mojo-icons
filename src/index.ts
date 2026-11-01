@@ -118,6 +118,7 @@ export { DatabaseBackup, DatabaseBackup as DatabaseBackupIcon } from './icons/da
 export { DatabasePlus, DatabasePlus as DatabasePlusIcon } from './icons/database-plus.js'
 export { Database, Database as DatabaseIcon } from './icons/database.js'
 export { Dialpad, Dialpad as DialpadIcon } from './icons/dialpad.js'
+export { DoorEnter, DoorEnter as DoorEnterIcon } from './icons/door-enter.js'
 export { DoorOpen, DoorOpen as DoorOpenIcon } from './icons/door-open.js'
 export { Download, Download as DownloadIcon } from './icons/download.js'
 export { Drama, Drama as DramaIcon } from './icons/drama.js'

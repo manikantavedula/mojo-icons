@@ -30,6 +30,10 @@ const GEOMETRY_ATTRS = {
   ellipse: ['cx', 'cy', 'rx', 'ry'],
   line: ['x1', 'y1', 'x2', 'y2'],
 }
+// Brand icons whose accent is a shape instead of a round dot: door-enter draws sesameru's own door (a filled arch
+// in the accent colour inside the door's outline, a dark chevron cut into it, and its knob), like the logo's door.
+const KNOB_FILL = 'var(--mojo-knob, #14233f)'
+const ACCENT_SHAPE_ICONS = new Set(['door-enter'])
 const LIVE_MIN = 2, LIVE_MAX = 22, TOL = 0.02
 
 // Names the identity, voice, school and brand work asked for on top of the apps' inventory, plus names the
@@ -89,28 +93,36 @@ for (const file of files) {
   for (const el of els) {
     const { tag, attrs } = el
     if (!ALLOWED_TAGS.has(tag)) { err(file, `element <${tag}> not allowed`); continue }
-    const isDot = tag === 'circle' && attrs.fill !== undefined
+    const isShape = tag === 'path' && attrs.fill !== undefined && ACCENT_SHAPE_ICONS.has(kebab)
+    // the door's knob: a small dark dot (--mojo-knob, Night by default), so it stays dark on the gold door in any theme
+    const isKnob = tag === 'circle' && attrs.fill === KNOB_FILL && ACCENT_SHAPE_ICONS.has(kebab)
+    // the door's chevron: a dark stroke cut into the gold door
+    const isCut = tag === 'path' && attrs.stroke === KNOB_FILL && ACCENT_SHAPE_ICONS.has(kebab)
+    const isDot = (tag === 'circle' && attrs.fill !== undefined && !isKnob) || isShape
     for (const k of Object.keys(attrs)) {
       if (GEOMETRY_ATTRS[tag].includes(k)) continue
-      if (isDot && (k === 'fill' || k === 'stroke')) continue
+      if ((isDot || isKnob) && (k === 'fill' || k === 'stroke')) continue
+      if (isCut && k === 'stroke') continue
       err(file, `<${tag}> has disallowed attribute ${k}${k === 'fill' ? ' (only the accent dot may be filled)' : ''}`)
     }
     if (isDot) {
       dots++
       if (attrs.fill !== ACCENT_FILL) err(file, `accent dot fill must be "${ACCENT_FILL}"`)
       if (attrs.stroke !== 'none') err(file, 'accent dot must have stroke="none"')
-      const r = parseFloat(attrs.r)
-      if (!(r >= 1.6 - 1e-9 && r <= 2 + 1e-9)) err(file, `accent dot radius ${r} outside 1.6–2`)
-      dotList.push([parseFloat(attrs.cx), parseFloat(attrs.cy), r])
+      if (!isShape) {
+        const r = parseFloat(attrs.r)
+        if (!(r >= 1.6 - 1e-9 && r <= 2 + 1e-9)) err(file, `accent dot radius ${r} outside 1.6–2`)
+        dotList.push([parseFloat(attrs.cx), parseFloat(attrs.cy), r])
+      }
     }
-    if (tag === 'path') {
+    if (tag === 'path' && !isShape) {
       try {
         geomPts.push(...samplePath(attrs.d, 40))
       } catch (e) {
         err(file, `bad path data: ${e.message}`)
         continue
       }
-    } else if (tag === 'circle' && !isDot) {
+    } else if (tag === 'circle' && !isDot && !isKnob) {
       const cx = +attrs.cx, cy = +attrs.cy, r = +attrs.r
       for (let k = 0; k < 72; k++) geomPts.push([cx + r * Math.cos((k * Math.PI) / 36), cy + r * Math.sin((k * Math.PI) / 36)])
     } else if (tag === 'rect') {
