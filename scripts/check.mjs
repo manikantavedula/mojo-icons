@@ -31,7 +31,7 @@ const GEOMETRY_ATTRS = {
   line: ['x1', 'y1', 'x2', 'y2'],
 }
 // Brand icons whose accent is a shape instead of a round dot: door-enter draws sesameru's own door (a filled arch
-// in the accent colour inside the door's outline, with its knob), so the arrow into it looks like the logo.
+// in the accent colour inside the door's outline, a dark chevron cut into it, and its knob), like the logo's door.
 const KNOB_FILL = 'var(--mojo-knob, #14233f)'
 const ACCENT_SHAPE_ICONS = new Set(['door-enter'])
 const LIVE_MIN = 2, LIVE_MAX = 22, TOL = 0.02
@@ -96,10 +96,13 @@ for (const file of files) {
     const isShape = tag === 'path' && attrs.fill !== undefined && ACCENT_SHAPE_ICONS.has(kebab)
     // the door's knob: a small dark dot (--mojo-knob, Night by default), so it stays dark on the gold door in any theme
     const isKnob = tag === 'circle' && attrs.fill === KNOB_FILL && ACCENT_SHAPE_ICONS.has(kebab)
+    // the door's chevron: a dark stroke cut into the gold door
+    const isCut = tag === 'path' && attrs.stroke === KNOB_FILL && ACCENT_SHAPE_ICONS.has(kebab)
     const isDot = (tag === 'circle' && attrs.fill !== undefined && !isKnob) || isShape
     for (const k of Object.keys(attrs)) {
       if (GEOMETRY_ATTRS[tag].includes(k)) continue
       if ((isDot || isKnob) && (k === 'fill' || k === 'stroke')) continue
+      if (isCut && k === 'stroke') continue
       err(file, `<${tag}> has disallowed attribute ${k}${k === 'fill' ? ' (only the accent dot may be filled)' : ''}`)
     }
     if (isDot) {

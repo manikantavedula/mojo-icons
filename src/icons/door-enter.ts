@@ -3,9 +3,10 @@ import { createMojoIcon } from '../create-icon.js'
 
 /** Mojo Icons: `DoorEnter` (svg/door-enter.svg) */
 export const DoorEnter = /* @__PURE__ */ createMojoIcon('door-enter', [
-  ["path", { d: "M13.5 21V12a4 4 0 0 1 8 0v9z", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
-  ["path", { d: "M13.5 21V12a4 4 0 0 1 8 0v9M3 16.5h6.5m-3-3l3 3l-3 3" }],
-  ["circle", { cx: "18.8", cy: "16.5", r: "1", fill: "var(--mojo-knob, #14233f)", stroke: "none" }],
+  ["path", { d: "M6.5 21V11a5.5 5.5 0 0 1 11 0v10z", fill: "var(--mojo-accent, currentColor)", stroke: "none" }],
+  ["path", { d: "M6.5 21V11a5.5 5.5 0 0 1 11 0v10M3.5 21h17" }],
+  ["path", { d: "M9.3 12l2.8 3l-2.8 3", stroke: "var(--mojo-knob, #14233f)" }],
+  ["circle", { cx: "14.8", cy: "15", r: "1", fill: "var(--mojo-knob, #14233f)", stroke: "none" }],
 ])
 
 export default DoorEnter
