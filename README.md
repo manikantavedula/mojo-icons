@@ -1,6 +1,6 @@
 # Mojo Icons (`@axismojo/icons`)
 
-The Axis Mojo icon set: 400 icons as Lucide-compatible React components, used by Aula Melo, Uttarōha, sesameru
+The Axis Mojo icon set: 400 icons as Lucide-compatible React components, used by Wisenate, Uttarōha, sesameru
 and Jamun Origin. Every icon has the Mojo accent dot.
 
 ```bash

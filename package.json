@@ -1,7 +1,7 @@
 {
   "name": "@axismojo/icons",
   "version": "1.3.0",
-  "description": "Mojo Icons: the Axis Mojo icon set (Lucide-compatible React components) used by Aula Melo, Uttarōha, sesameru and Jamun Origin.",
+  "description": "Mojo Icons: the Axis Mojo icon set (Lucide-compatible React components) used by Wisenate, Uttarōha, sesameru and Jamun Origin.",
   "license": "UNLICENSED",
   "type": "module",
   "sideEffects": false,
