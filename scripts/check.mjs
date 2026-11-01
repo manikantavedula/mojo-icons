@@ -32,6 +32,7 @@ const GEOMETRY_ATTRS = {
 }
 // Brand icons whose accent is a shape instead of a round dot: door-enter draws sesameru's own door (a filled arch
 // in the accent colour inside the door's outline, with its knob), so the arrow into it looks like the logo.
+const KNOB_FILL = 'var(--mojo-knob, #14233f)'
 const ACCENT_SHAPE_ICONS = new Set(['door-enter'])
 const LIVE_MIN = 2, LIVE_MAX = 22, TOL = 0.02
 
@@ -93,10 +94,12 @@ for (const file of files) {
     const { tag, attrs } = el
     if (!ALLOWED_TAGS.has(tag)) { err(file, `element <${tag}> not allowed`); continue }
     const isShape = tag === 'path' && attrs.fill !== undefined && ACCENT_SHAPE_ICONS.has(kebab)
-    const isDot = (tag === 'circle' && attrs.fill !== undefined) || isShape
+    // the door's knob: a small dark dot (--mojo-knob, Night by default), so it stays dark on the gold door in any theme
+    const isKnob = tag === 'circle' && attrs.fill === KNOB_FILL && ACCENT_SHAPE_ICONS.has(kebab)
+    const isDot = (tag === 'circle' && attrs.fill !== undefined && !isKnob) || isShape
     for (const k of Object.keys(attrs)) {
       if (GEOMETRY_ATTRS[tag].includes(k)) continue
-      if (isDot && (k === 'fill' || k === 'stroke')) continue
+      if ((isDot || isKnob) && (k === 'fill' || k === 'stroke')) continue
       err(file, `<${tag}> has disallowed attribute ${k}${k === 'fill' ? ' (only the accent dot may be filled)' : ''}`)
     }
     if (isDot) {
@@ -116,7 +119,7 @@ for (const file of files) {
         err(file, `bad path data: ${e.message}`)
         continue
       }
-    } else if (tag === 'circle' && !isDot) {
+    } else if (tag === 'circle' && !isDot && !isKnob) {
       const cx = +attrs.cx, cy = +attrs.cy, r = +attrs.r
       for (let k = 0; k < 72; k++) geomPts.push([cx + r * Math.cos((k * Math.PI) / 36), cy + r * Math.sin((k * Math.PI) / 36)])
     } else if (tag === 'rect') {
