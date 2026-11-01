@@ -1,7 +1,7 @@
 # Mojo Icons (`@axismojo/icons`)
 
 The Axis Mojo icon set: 400 icons as Lucide-compatible React components, used by Wisenate, Uttarōha, sesameru
-and Atrajam. Every icon has the Mojo accent dot.
+and Tatrajam. Every icon has the Mojo accent dot.
 
 ```bash
 npm install @axismojo/icons
