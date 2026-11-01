@@ -1,6 +1,6 @@
 {
   "name": "@axismojo/icons",
-  "count": 407,
+  "count": 408,
   "icons": [
     {
       "name": "Accessible",
@@ -580,6 +580,11 @@
     {
       "name": "Dialpad",
       "file": "svg/dialpad.svg",
+      "aliases": []
+    },
+    {
+      "name": "DoorEnter",
+      "file": "svg/door-enter.svg",
       "aliases": []
     },
     {
@@ -2321,6 +2326,8 @@
     "DatabasePlusIcon",
     "Dialpad",
     "DialpadIcon",
+    "DoorEnter",
+    "DoorEnterIcon",
     "DoorOpen",
     "DoorOpenIcon",
     "Download",
