@@ -14,5 +14,6 @@ step "Install"; npm ci
 step "Icon checks"; npm run check
 step "Typecheck"; npm run typecheck
 step "Build"; npm run build
+step "Byline test"; npm test
 
 echo; echo "✓ All checks passed. To publish to npm: Actions → Release → Run workflow (see .github/workflows/release.yml)."

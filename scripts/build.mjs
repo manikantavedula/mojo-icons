@@ -87,6 +87,9 @@ for (const icon of icons) {
   exportsList.push(...all)
   lines.push(`export { ${spec.join(', ')} } from './icons/${icon.kebab}.js'`)
 }
+lines.push('', '// The Axis Mojo byline: one component for every app (src/brand/by-axis-mojo.tsx; spec: axis-mojo/docs/BYLINE.md)')
+lines.push("export { ByAxisMojo, ByAxisMojoAnimated, AxisMojoMark, AxisMojoMarkAnimated, AXIS_MOJO_URL, BYLINE_LIFT_EM, LATTU_BODY_BOTTOM } from './brand/by-axis-mojo.js'")
+lines.push("export type { ByAxisMojoProps, BylineSize, BylineTheme } from './brand/by-axis-mojo.js'")
 const dup = exportsList.filter((n, i) => exportsList.indexOf(n) !== i)
 if (dup.length) throw new Error(`Duplicate exports: ${dup.join(', ')}`)
 fs.writeFileSync(path.join(SRC, 'index.ts'), lines.join('\n') + '\n')
