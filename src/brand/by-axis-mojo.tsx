@@ -166,7 +166,7 @@ const NAME_FONT = '"Space Grotesk Variable","Space Grotesk",Inter,system-ui,sans
 
 function Byline({ size = 'sm', theme = 'auto', link = true, label = 'Axis Mojo (opens in a new tab)', by = 'by', className, style, spin }: ByAxisMojoProps & { spin: boolean }) {
   const inner = (
-    <span style={{ display: 'inline-flex', alignItems: 'baseline', gap: '.15em' }}>
+    <span style={{ display: 'inline-flex', alignItems: 'baseline', gap: 0 }}>
       <span style={{ display: 'inline-block', flex: 'none', width: '1.5em', height: `${1.5 - BYLINE_LIFT_EM}em` }}>
         <AxisMojoMark spin={spin} className="mojo-lattu-block" />
       </span>
@@ -176,7 +176,7 @@ function Byline({ size = 'sm', theme = 'auto', link = true, label = 'Axis Mojo (
   return (
     <span
       className={`mojo-by mojo-by--${theme}${className ? ` ${className}` : ''}`}
-      style={{ display: 'inline-flex', alignItems: 'baseline', gap: '.2727em', height: '1.5em', lineHeight: 1, whiteSpace: 'nowrap', fontSize: SIZES[size], fontFamily: BY_FONT, fontWeight: 500, ...style }}
+      style={{ display: 'inline-flex', alignItems: 'baseline', gap: '.45em', height: '1.5em', lineHeight: 1, whiteSpace: 'nowrap', fontSize: SIZES[size], fontFamily: BY_FONT, fontWeight: 500, ...style }}
     >
       <style>{CSS}</style>
       {by}

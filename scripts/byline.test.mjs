@@ -12,8 +12,8 @@ test('the lift is worked out from the lattu drawing (0.1489em)', () => {
   assert.ok(Math.abs(LATTU_BODY_BOTTOM - 57.65) < 0.01)
 })
 
-test('one baseline row, 1.5em tall, 0.2727em after "by" (3 px at 11 px; it scales with the size), Anek Latin 500', () => {
-  assert.match(html({}), /display:inline-flex;align-items:baseline;gap:\.2727em;height:1\.5em;line-height:1;white-space:nowrap;font-size:11px;font-family:&quot;Anek Latin Variable&quot;[^"]*font-weight:500/)
+test('one baseline row, 1.5em tall, 0.45em after "by", Anek Latin 500', () => {
+  assert.match(html({}), /display:inline-flex;align-items:baseline;gap:\.45em;height:1\.5em;line-height:1;white-space:nowrap;font-size:11px;font-family:&quot;Anek Latin Variable&quot;[^"]*font-weight:500/)
 })
 
 test('size: sm 11 px (beside the name), md 13 px (alone), lg 15 px (splash); sm is the default', () => {
@@ -23,10 +23,10 @@ test('size: sm 11 px (beside the name), md 13 px (alone), lg 15 px (splash); sm 
   assert.match(html({}), /font-size:11px/)
 })
 
-test('the name is Space Grotesk 700, letter-spacing -0.01em, 0.15em after the lattu', () => {
+test('the name is Space Grotesk 700, letter-spacing -0.01em, straight after the lattu (its own margin gives the gap)', () => {
   const a = html({})
   assert.match(a, /<b style="font-family:&quot;Space Grotesk Variable&quot;[^"]*font-weight:700;letter-spacing:-\.01em">Axis Mojo<\/b>/)
-  assert.match(a, /gap:\.15em/)
+  assert.match(a, /gap:0/)
 })
 
 test('theme: light, dark, band and auto (the default) set the spec colours', () => {
