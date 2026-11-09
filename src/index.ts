@@ -414,5 +414,5 @@ export { X, X as XIcon } from './icons/x.js'
 export { Zap, Zap as ZapIcon } from './icons/zap.js'
 
 // The Axis Mojo byline: one component for every app (src/brand/by-axis-mojo.tsx; spec: axis-mojo/docs/BYLINE.md)
-export { ByAxisMojo, ByAxisMojoAnimated, AxisMojoMark, AxisMojoMarkAnimated, AXIS_MOJO_URL, BYLINE_LIFT_EM, LATTU_BODY_BOTTOM } from './brand/by-axis-mojo.js'
+export { ByAxisMojo, AxisMojoMark, AXIS_MOJO_URL, BYLINE_LIFT_EM, LATTU_BODY_BOTTOM } from './brand/by-axis-mojo.js'
 export type { ByAxisMojoProps, BylineSize, BylineTheme } from './brand/by-axis-mojo.js'

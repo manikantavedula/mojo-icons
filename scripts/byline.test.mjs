@@ -3,9 +3,9 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
-import { ByAxisMojo, ByAxisMojoAnimated, AxisMojoMark, AxisMojoMarkAnimated, AXIS_MOJO_URL, BYLINE_LIFT_EM, LATTU_BODY_BOTTOM } from '../dist/index.js'
+import { ByAxisMojo, AxisMojoMark, AXIS_MOJO_URL, BYLINE_LIFT_EM, LATTU_BODY_BOTTOM } from '../dist/index.js'
 
-const html = (props, C = ByAxisMojo) => renderToStaticMarkup(createElement(C, props))
+const html = (props) => renderToStaticMarkup(createElement(ByAxisMojo, props))
 
 test('the lift is worked out from the lattu drawing (0.1489em)', () => {
   assert.equal(BYLINE_LIFT_EM, 0.1489)
@@ -53,22 +53,23 @@ test('the lattu and the name are one link to Axis Mojo in a new tab; "by" is pla
   assert.ok(!html({ link: false }).includes('<a '))
 })
 
-test('two components: ByAxisMojo is still, ByAxisMojoAnimated spins the lattu', () => {
+test('one component: the `animated` attribute spins the lattu; still by default', () => {
   const still = html({})
   assert.ok(!still.includes('class="mojo-lattu-band"') && !still.includes('class="mojo-lattu-spin"'))
   assert.equal((still.match(/stroke-width="1\.7"/g) ?? []).length, 4)
-  const anim = html({}, ByAxisMojoAnimated)
+  const anim = html({ animated: true })
   assert.match(anim, /class="mojo-lattu-band"[^>]*stroke-dasharray="1\.7 10\.3"/)
   assert.match(anim, /class="mojo-lattu-spin"/)
   assert.ok(!anim.includes('stroke-width="1.7"'))
-  // both share the layout: only the lattu's drawing differs
+  // the layout is the same: only the lattu's drawing differs
   assert.equal(still.match(/font-size:\d+px/)[0], anim.match(/font-size:\d+px/)[0])
+  assert.equal(html({ animated: false }), still)
 })
 
-test('the shaded lattu mark: fixed colours, still or animated, and the animation carries its own CSS', () => {
+test('the shaded lattu mark: fixed colours, still or `animated`, and the animation carries its own CSS', () => {
   const still = renderToStaticMarkup(createElement(AxisMojoMark, {}))
   assert.ok(!still.includes('currentColor') && !still.includes('<style>'))
   assert.match(still, /#F2A31B/)
-  const anim = renderToStaticMarkup(createElement(AxisMojoMarkAnimated, {}))
+  const anim = renderToStaticMarkup(createElement(AxisMojoMark, { animated: true }))
   assert.match(anim, /<style>[^<]*mojo-lattu-precess/)
 })

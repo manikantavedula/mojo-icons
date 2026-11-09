@@ -23,35 +23,37 @@ types are exported, so code written for `lucide-react` keeps compiling. The raw 
 Moving an app from `lucide-react`: `npx mojo-icons-codemod <app dir> --to @axismojo/icons --dry-run`, then without
 `--dry-run`.
 
-## The byline: `ByAxisMojo` and `ByAxisMojoAnimated`
+## The byline: `ByAxisMojo`
 
-"by [lattu] Axis Mojo" is one pair of components for every Axis Mojo app, old and new. Import them; never copy or restyle them.
-``ByAxisMojo` is still; `ByAxisMojoAnimated` is the same byline with the lattu spinning like a top (a splash, a loader; still under
-reduced motion). They take the same props:
+"by [lattu] Axis Mojo" is one component for every Axis Mojo app, old and new. Import it; never copy or restyle it. The `animated`
+attribute makes the lattu spin like a top (a splash, a loader; still under reduced motion).
 
 | Prop | Values | |
 |---|---|---|
 | `size` | `sm` (11 px, default), `md` (13 px), `lg` (15 px) | `sm` beside the app's name in a header, cover or sign-in lockup; `md` alone in a footer or legal line; `lg` for a splash. The row, lattu and gaps scale in em. |
 | `theme` | `auto` (default), `light`, `dark`, `band` | `auto` follows the page: `data-theme="dark"`, a `dark` class, or the device's dark setting (`data-theme="light"` or a `light` class force light). `band` is a dark top bar or cover. |
+| `animated` | `false` (default), `true` | the lattu spins like a top: it precesses about its tip while the band's gaps race round |
 | `link` | `true` (default), `false` | one link to Axis Mojo in a new tab; `false` for a splash |
 | `label`, `by` | text | the link's accessible name; the word "by" (translations) |
 | `className`, `style` | | layout only (margins, alignment): never fonts, sizes or colours |
 
 ```tsx
-import { ByAxisMojo, ByAxisMojoAnimated } from '@axismojo/icons'
+import { ByAxisMojo } from '@axismojo/icons'
 
-<ByAxisMojo />                                  // 11 px, follows the page's theme
-<ByAxisMojo size="md" theme="dark" />           // a footer on a dark page
-<ByAxisMojo theme="band" />                     // on a dark top bar or cover
-<ByAxisMojoAnimated size="lg" theme="dark" link={false} />   // the splash
+<ByAxisMojo />                                          // 11 px, follows the page's theme
+<ByAxisMojo size="md" theme="dark" />                   // a footer on a dark page
+<ByAxisMojo theme="band" />                             // on a dark top bar or cover
+<ByAxisMojo animated size="lg" theme="dark" link={false} />   // the splash
 ```
 
-The row is one baseline line 1.5em tall: "by" in Anek Latin 500, 0.45em, the shaded lattu in a 1.5em box 0.1489em short (its tip stands on the words' baseline), then the name in Space Grotesk 700, straight after the lattu (the drawing's own margin makes the gap). Measured ink gaps: "by" to lattu about 0.62em, lattu to name about 0.32em.
+The row is one baseline line 1.5em tall: "by" in Anek Latin 500, 0.45em, the shaded lattu in a 1.5em box 0.1489em short (its tip stands on the
+words' baseline), then the name in Space Grotesk 700, straight after the lattu (the drawing's own margin makes the gap). Measured ink gaps:
+"by" to lattu about 0.62em, lattu to name about 0.32em.
 
-The lattu alone: `AxisMojoMark` and `AxisMojoMarkAnimated`. The components carry their own animation and hover CSS. The app loads the
+The lattu alone: `AxisMojoMark` (with the same `animated` attribute). The component carries its own animation and hover CSS. The app loads the
 two fonts: Anek Latin (the word "by") and Space Grotesk 700 (the name), e.g. `@fontsource-variable/anek-latin` and
 `@fontsource-variable/space-grotesk`. The spec is `axis-mojo/docs/BYLINE.md`; `npm test` pins every number in it.
-Emails cannot use them (no React, no web fonts); they follow the same numbers by hand.
+Emails cannot use it (no React, no web fonts); they follow the same numbers by hand.
 
 ## Working on the icons
 
