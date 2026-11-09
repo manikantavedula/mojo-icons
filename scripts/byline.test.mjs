@@ -12,8 +12,8 @@ test('the lift is worked out from the lattu drawing (0.1489em)', () => {
   assert.ok(Math.abs(LATTU_BODY_BOTTOM - 57.65) < 0.01)
 })
 
-test('one baseline row, 1.5em tall, 3 px after "by", Anek Latin 500', () => {
-  assert.match(html({}), /display:inline-flex;align-items:baseline;gap:3px;height:1\.5em;line-height:1;white-space:nowrap;font-size:11px;font-family:&quot;Anek Latin Variable&quot;[^"]*font-weight:500/)
+test('one baseline row, 1.5em tall, 0.2727em after "by" (3 px at 11 px; it scales with the size), Anek Latin 500', () => {
+  assert.match(html({}), /display:inline-flex;align-items:baseline;gap:\.2727em;height:1\.5em;line-height:1;white-space:nowrap;font-size:11px;font-family:&quot;Anek Latin Variable&quot;[^"]*font-weight:500/)
 })
 
 test('size: sm 11 px (beside the name), md 13 px (alone), lg 15 px (splash); sm is the default', () => {

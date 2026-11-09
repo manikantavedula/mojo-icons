@@ -176,7 +176,7 @@ function Byline({ size = 'sm', theme = 'auto', link = true, label = 'Axis Mojo (
   return (
     <span
       className={`mojo-by mojo-by--${theme}${className ? ` ${className}` : ''}`}
-      style={{ display: 'inline-flex', alignItems: 'baseline', gap: 3, height: '1.5em', lineHeight: 1, whiteSpace: 'nowrap', fontSize: SIZES[size], fontFamily: BY_FONT, fontWeight: 500, ...style }}
+      style={{ display: 'inline-flex', alignItems: 'baseline', gap: '.2727em', height: '1.5em', lineHeight: 1, whiteSpace: 'nowrap', fontSize: SIZES[size], fontFamily: BY_FONT, fontWeight: 500, ...style }}
     >
       <style>{CSS}</style>
       {by}

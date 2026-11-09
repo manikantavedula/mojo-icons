@@ -26,7 +26,7 @@ Moving an app from `lucide-react`: `npx mojo-icons-codemod <app dir> --to @axism
 ## The byline: `ByAxisMojo` and `ByAxisMojoAnimated`
 
 "by [lattu] Axis Mojo" is one pair of components for every Axis Mojo app, old and new. Import them; never copy or restyle them.
-`ByAxisMojo` is still; `ByAxisMojoAnimated` is the same byline with the lattu spinning like a top (a splash, a loader; still under
+``ByAxisMojo` is still; `ByAxisMojoAnimated` is the same byline with the lattu spinning like a top (a splash, a loader; still under
 reduced motion). They take the same props:
 
 | Prop | Values | |
