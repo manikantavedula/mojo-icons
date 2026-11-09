@@ -46,6 +46,8 @@ import { ByAxisMojo, ByAxisMojoAnimated } from '@axismojo/icons'
 <ByAxisMojoAnimated size="lg" theme="dark" link={false} />   // the splash
 ```
 
+The row is one baseline line 1.5em tall: "by" in Anek Latin 500, 0.45em, the shaded lattu in a 1.5em box 0.1489em short (its tip stands on the words' baseline), then the name in Space Grotesk 700, straight after the lattu (the drawing's own margin makes the gap). Measured ink gaps: "by" to lattu about 0.62em, lattu to name about 0.32em.
+
 The lattu alone: `AxisMojoMark` and `AxisMojoMarkAnimated`. The components carry their own animation and hover CSS. The app loads the
 two fonts: Anek Latin (the word "by") and Space Grotesk 700 (the name), e.g. `@fontsource-variable/anek-latin` and
 `@fontsource-variable/space-grotesk`. The spec is `axis-mojo/docs/BYLINE.md`; `npm test` pins every number in it.
