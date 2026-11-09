@@ -1,6 +1,6 @@
 {
   "name": "@axismojo/icons",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Mojo Icons: the Axis Mojo icon set (Lucide-compatible React components) used by Wisenate, Uttar\u014dha, sesameru and Tatrajam.",
   "license": "UNLICENSED",
   "type": "module",
