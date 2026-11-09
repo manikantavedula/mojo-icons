@@ -23,6 +23,24 @@ types are exported, so code written for `lucide-react` keeps compiling. The raw 
 Moving an app from `lucide-react`: `npx mojo-icons-codemod <app dir> --to @axismojo/icons --dry-run`, then without
 `--dry-run`.
 
+## The byline: `ByAxisMojo`
+
+"by [lattu] Axis Mojo" is one component for every Axis Mojo app, old and new. Import it; never copy or restyle it.
+
+```tsx
+import { ByAxisMojo } from '@axismojo/icons'
+
+<ByAxisMojo />                              // 11 px, light page: beside the app's name in a header, cover or sign-in lockup
+<ByAxisMojo size="alone" tone="dark" />     // 13 px, dark page: a footer or a legal line
+<ByAxisMojo tone="band" />                  // on a dark top bar or cover
+<ByAxisMojo spin link={false} />            // the splash: the lattu spins like a top
+```
+
+`className` and `style` are for layout only (margins, alignment). The component carries its own animation and hover CSS. The app
+loads the two fonts: Anek Latin (the word "by") and Space Grotesk 700 (the name), e.g. `@fontsource-variable/anek-latin` and
+`@fontsource-variable/space-grotesk`. The spec is `axis-mojo/docs/BYLINE.md`; `npm test` pins every number in it.
+Emails cannot use it (no React, no web fonts); they follow the same numbers by hand.
+
 ## Working on the icons
 
 ```

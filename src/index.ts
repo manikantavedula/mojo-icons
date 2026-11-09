@@ -412,3 +412,7 @@ export { Workflow, Workflow as WorkflowIcon } from './icons/workflow.js'
 export { Wrench, Wrench as WrenchIcon } from './icons/wrench.js'
 export { X, X as XIcon } from './icons/x.js'
 export { Zap, Zap as ZapIcon } from './icons/zap.js'
+
+// The Axis Mojo byline: one component for every app (src/brand/by-axis-mojo.tsx; spec: axis-mojo/docs/BYLINE.md)
+export { ByAxisMojo, AxisMojoMark, AXIS_MOJO_URL, BYLINE_LIFT_EM, LATTU_BODY_BOTTOM } from './brand/by-axis-mojo.js'
+export type { ByAxisMojoProps, BylineSize, BylineTone } from './brand/by-axis-mojo.js'
