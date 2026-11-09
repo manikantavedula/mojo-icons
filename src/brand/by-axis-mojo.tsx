@@ -43,6 +43,7 @@ export function AxisMojoMark({ className, spin = false }: { className?: string; 
   const url = (n: string) => `url(#${id(n)})`
   return (
     <svg viewBox="0 0 64 64" className={className ? `${className} mojo-lattu-svg` : 'mojo-lattu-svg'} aria-hidden>
+      {spin && <style>{CSS}</style>}
       <defs>
         <linearGradient id={id('body')} gradientUnits="userSpaceOnUse" x1="14" y1="16" x2="52" y2="54">
           <stop offset="0" stopColor="#93A2C0" />
@@ -112,67 +113,72 @@ export function AxisMojoMark({ className, spin = false }: { className?: string; 
 
 export const AXIS_MOJO_URL = 'https://axismojo.netlify.app'
 
-/** Spin and hover CSS, carried by the component (an app needs no global CSS for it). The gaps race round the band 0.24 s a lap; the lattu precesses about its tip. */
+/**
+ * The CSS the component carries (an app needs no global CSS). Colours are the spec's: "by" muted, the name Ink on light and Paper on dark;
+ * `band` is a dark top bar or cover (a lighter "by"). `auto` follows the page: light by default, dark under `[data-theme=dark]` or `.dark`,
+ * or, when nothing is set, under the device's dark setting (`[data-theme=light]` and `.light` force light).
+ */
 const CSS =
   '@keyframes mojo-lattu-precess{0%,100%{transform:rotate(-7deg)}50%{transform:rotate(7deg)}}' +
   '@keyframes mojo-lattu-band{to{stroke-dashoffset:-24}}' +
   '.mojo-lattu-spin{transform-box:view-box;transform-origin:32px 59px;animation:mojo-lattu-precess .9s ease-in-out infinite}' +
   '.mojo-lattu-band{animation:mojo-lattu-band .24s linear infinite}' +
   '@media (prefers-reduced-motion:reduce){.mojo-lattu-spin,.mojo-lattu-band{animation:none}}' +
+  '.mojo-lattu-block{display:block;width:1.5em;height:1.5em}' +
+  '.mojo-by{--mojo-by:#64666b;--mojo-name:#14181f}' +
+  '.mojo-by--dark{--mojo-by:#9ea39f;--mojo-name:#f7f4ec}' +
+  '.mojo-by--band{--mojo-by:#c9d6ce;--mojo-name:#f7f4ec}' +
+  '[data-theme=dark] .mojo-by--auto,.dark .mojo-by--auto{--mojo-by:#9ea39f;--mojo-name:#f7f4ec}' +
+  '@media (prefers-color-scheme:dark){:root:not([data-theme=light]):not(.light) .mojo-by--auto{--mojo-by:#9ea39f;--mojo-name:#f7f4ec}}' +
+  '.mojo-by{color:var(--mojo-by)}.mojo-by b{color:var(--mojo-name)}' +
   '.mojo-by a{color:inherit;text-decoration:none;border-radius:2px}.mojo-by a:hover b,.mojo-by a:focus-visible b{text-decoration:underline;text-underline-offset:.2em}'
 
-/** The colours of the spec: "by" muted, the name Ink on light and Paper on dark. `band` is a dark top bar or cover (a lighter "by"). */
-export type BylineTone = 'light' | 'dark' | 'band'
-const TONES: Record<BylineTone, { by: string; name: string }> = {
-  light: { by: '#64666b', name: '#14181f' },
-  dark: { by: '#9ea39f', name: '#f7f4ec' },
-  band: { by: '#c9d6ce', name: '#f7f4ec' },
-}
-/** The two sizes of the spec: 11 px beside the name (a header, a cover, a sign-in lockup), 13 px alone (a footer, a legal line). No other size. */
-export type BylineSize = 'beside' | 'alone'
-const SIZES: Record<BylineSize, number> = { beside: 11, alone: 13 }
+/**
+ * The colours: `light` (a light page), `dark` (a dark page), `band` (a dark top bar or cover) or `auto` (follows the page's theme:
+ * `data-theme`, a `dark` class, or the device's setting). Default `auto`.
+ */
+export type BylineTheme = 'auto' | 'light' | 'dark' | 'band'
+/**
+ * The sizes: `sm` 11 px (beside the app's name in a header, cover or sign-in lockup), `md` 13 px (alone: a footer or a legal line),
+ * `lg` 15 px (a splash or a hero). The row, the lattu and every gap scale with it in em; there is no other size.
+ */
+export type BylineSize = 'sm' | 'md' | 'lg'
+const SIZES: Record<BylineSize, number> = { sm: 11, md: 13, lg: 15 }
 
 export interface ByAxisMojoProps {
-  /** `beside` (11 px, next to the app's name) or `alone` (13 px). Default `beside`. */
+  /** `sm` (11 px, beside the name), `md` (13 px, alone) or `lg` (15 px, splash). Default `sm`. */
   size?: BylineSize
-  /** `light` (a light page), `dark` (a dark page) or `band` (a dark bar or cover). Default `light`. */
-  tone?: BylineTone
-  /** Spin the lattu like a top (the splash). */
-  spin?: boolean
-  /** The lattu and the name are one link to Axis Mojo in a new tab. Default true; false for a splash or an email-like still. */
+  /** `auto`, `light`, `dark` or `band`. Default `auto`. */
+  theme?: BylineTheme
+  /** The lattu and the name are one link to Axis Mojo in a new tab. Default true; false for a splash or a still picture. */
   link?: boolean
   /** Accessible name of the link. Default "Axis Mojo (opens in a new tab)". */
   label?: string
+  /** Replaces the word "by" (translations); default "by". */
+  by?: ReactNode
   /** Layout only (margins, alignment): never fonts, sizes or colours. */
   className?: string
   style?: CSSProperties
-  /** Replaces the word "by" (translations); default "by". */
-  by?: ReactNode
 }
 
 const BY_FONT = '"Anek Latin Variable","Anek Latin",system-ui,sans-serif'
 const NAME_FONT = '"Space Grotesk Variable","Space Grotesk",Inter,system-ui,sans-serif'
 
-/**
- * "by [lattu] Axis Mojo": one baseline row 1.5em tall, "by" in Anek Latin 500, 3 px, the shaded lattu in a 1.5em box that ends
- * BYLINE_LIFT_EM short of the drawing's bottom (so the words sit on the lattu's tip), 0.15em, then the name in Space Grotesk bold.
- */
-export function ByAxisMojo({ size = 'beside', tone = 'light', spin = false, link = true, label = 'Axis Mojo (opens in a new tab)', className, style, by = 'by' }: ByAxisMojoProps) {
-  const c = TONES[tone]
+function Byline({ size = 'sm', theme = 'auto', link = true, label = 'Axis Mojo (opens in a new tab)', by = 'by', className, style, spin }: ByAxisMojoProps & { spin: boolean }) {
   const inner = (
     <span style={{ display: 'inline-flex', alignItems: 'baseline', gap: '.15em' }}>
       <span style={{ display: 'inline-block', flex: 'none', width: '1.5em', height: `${1.5 - BYLINE_LIFT_EM}em` }}>
         <AxisMojoMark spin={spin} className="mojo-lattu-block" />
       </span>
-      <b style={{ fontFamily: NAME_FONT, fontWeight: 700, letterSpacing: '-.01em', color: c.name }}>Axis Mojo</b>
+      <b style={{ fontFamily: NAME_FONT, fontWeight: 700, letterSpacing: '-.01em' }}>Axis Mojo</b>
     </span>
   )
   return (
     <span
-      className={className ? `mojo-by ${className}` : 'mojo-by'}
-      style={{ display: 'inline-flex', alignItems: 'baseline', gap: 3, height: '1.5em', lineHeight: 1, whiteSpace: 'nowrap', fontSize: SIZES[size], fontFamily: BY_FONT, fontWeight: 500, color: c.by, ...style }}
+      className={`mojo-by mojo-by--${theme}${className ? ` ${className}` : ''}`}
+      style={{ display: 'inline-flex', alignItems: 'baseline', gap: 3, height: '1.5em', lineHeight: 1, whiteSpace: 'nowrap', fontSize: SIZES[size], fontFamily: BY_FONT, fontWeight: 500, ...style }}
     >
-      <style>{CSS + '.mojo-lattu-block{display:block;width:1.5em;height:1.5em}'}</style>
+      <style>{CSS}</style>
       {by}
       {link ? (
         <a href={AXIS_MOJO_URL} target="_blank" rel="noopener noreferrer" aria-label={label}>
@@ -183,4 +189,19 @@ export function ByAxisMojo({ size = 'beside', tone = 'light', spin = false, link
       )}
     </span>
   )
+}
+
+/** "by [lattu] Axis Mojo", still: one baseline row 1.5em tall, the lattu's tip on the words' baseline (docs/BYLINE.md). */
+export function ByAxisMojo(props: ByAxisMojoProps) {
+  return <Byline {...props} spin={false} />
+}
+
+/** The same byline with the lattu spinning like a top (it precesses about its tip while the band's gaps race round): the splash, a loader. Still under reduced motion. */
+export function ByAxisMojoAnimated(props: ByAxisMojoProps) {
+  return <Byline {...props} spin />
+}
+
+/** The lattu alone, spinning (see ByAxisMojoAnimated). */
+export function AxisMojoMarkAnimated({ className }: { className?: string }) {
+  return <AxisMojoMark className={className} spin />
 }
