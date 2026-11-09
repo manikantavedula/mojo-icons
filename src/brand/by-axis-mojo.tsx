@@ -33,17 +33,17 @@ const BAND_BELT = 'M10.61 29.2 A21.39 5.35 0 0 0 53.39 29.2 L48.73 36.0 A16.73 4
 /**
  * The Axis Mojo mark, the lattu (spinning top), for the "by Axis Mojo" byline: the shaded 3D lattu of the Axis Mojo
  * site (8 Nov 2026): a round body lit from the top left with an edge light, a Saffron band wrapped round it like a belt.
- * The colours are fixed, the same in light and dark. The band's gaps are see-through mask cuts. `spin` makes it spin like
+ * The colours are fixed, the same in light and dark. The band's gaps are see-through mask cuts. `animated` makes it spin like
  * a top (CSS only, still under prefers-reduced-motion): the gaps become a dashed run along the band (.lattu-band).
  * `onDark` is kept for callers and no longer changes anything.
  */
-export function AxisMojoMark({ className, spin = false }: { className?: string; spin?: boolean }) {
+export function AxisMojoMark({ className, animated = false }: { className?: string; animated?: boolean }) {
   const uid = `lat${useId().replace(/:/g, '')}`
   const id = (n: string) => `${uid}-${n}`
   const url = (n: string) => `url(#${id(n)})`
   return (
     <svg viewBox="0 0 64 64" className={className ? `${className} mojo-lattu-svg` : 'mojo-lattu-svg'} aria-hidden>
-      {spin && <style>{CSS}</style>}
+      {animated && <style>{CSS}</style>}
       <defs>
         <linearGradient id={id('body')} gradientUnits="userSpaceOnUse" x1="14" y1="16" x2="52" y2="54">
           <stop offset="0" stopColor="#93A2C0" />
@@ -83,14 +83,14 @@ export function AxisMojoMark({ className, spin = false }: { className?: string; 
         </clipPath>
         <mask id={id('gaps')}>
           <rect x="0" y="0" width="64" height="64" fill="#fff" />
-          {spin ? (
+          {animated ? (
             <path className="mojo-lattu-band" d={BAND_MID} fill="none" stroke="#000" strokeWidth="9" strokeDasharray="1.7 10.3" />
           ) : (
             GAP_LINES.map((d) => <path key={d} d={d} stroke="#000" strokeWidth="1.7" strokeLinecap="butt" />)
           )}
         </mask>
       </defs>
-      <g className={spin ? 'mojo-lattu-spin' : undefined}>
+      <g className={animated ? 'mojo-lattu-spin' : undefined}>
         <g transform="rotate(-16 32 34)">
           <rect x="29" y="4" width="6" height="10" rx="3" fill={url('knob')} />
           <path d={LATTU_BODY} fill={url('body')} />
@@ -150,6 +150,8 @@ export interface ByAxisMojoProps {
   size?: BylineSize
   /** `auto`, `light`, `dark` or `band`. Default `auto`. */
   theme?: BylineTheme
+  /** The lattu spins like a top (it precesses about its tip while the band's gaps race round): the splash, a loader. Still under reduced motion. Default false. */
+  animated?: boolean
   /** The lattu and the name are one link to Axis Mojo in a new tab. Default true; false for a splash or a still picture. */
   link?: boolean
   /** Accessible name of the link. Default "Axis Mojo (opens in a new tab)". */
@@ -164,11 +166,15 @@ export interface ByAxisMojoProps {
 const BY_FONT = '"Anek Latin Variable","Anek Latin",system-ui,sans-serif'
 const NAME_FONT = '"Space Grotesk Variable","Space Grotesk",Inter,system-ui,sans-serif'
 
-function Byline({ size = 'sm', theme = 'auto', link = true, label = 'Axis Mojo (opens in a new tab)', by = 'by', className, style, spin }: ByAxisMojoProps & { spin: boolean }) {
+/**
+ * "by [lattu] Axis Mojo": one baseline row 1.5em tall, the lattu's tip on the words' baseline (axis-mojo/docs/BYLINE.md). One component for
+ * every app: `animated` makes the lattu spin (the splash), `size` and `theme` set the size and the colours.
+ */
+export function ByAxisMojo({ size = 'sm', theme = 'auto', animated = false, link = true, label = 'Axis Mojo (opens in a new tab)', by = 'by', className, style }: ByAxisMojoProps) {
   const inner = (
     <span style={{ display: 'inline-flex', alignItems: 'baseline', gap: 0 }}>
       <span style={{ display: 'inline-block', flex: 'none', width: '1.5em', height: `${1.5 - BYLINE_LIFT_EM}em` }}>
-        <AxisMojoMark spin={spin} className="mojo-lattu-block" />
+        <AxisMojoMark animated={animated} className="mojo-lattu-block" />
       </span>
       <b style={{ fontFamily: NAME_FONT, fontWeight: 700, letterSpacing: '-.01em' }}>Axis Mojo</b>
     </span>
@@ -189,19 +195,4 @@ function Byline({ size = 'sm', theme = 'auto', link = true, label = 'Axis Mojo (
       )}
     </span>
   )
-}
-
-/** "by [lattu] Axis Mojo", still: one baseline row 1.5em tall, the lattu's tip on the words' baseline (docs/BYLINE.md). */
-export function ByAxisMojo(props: ByAxisMojoProps) {
-  return <Byline {...props} spin={false} />
-}
-
-/** The same byline with the lattu spinning like a top (it precesses about its tip while the band's gaps race round): the splash, a loader. Still under reduced motion. */
-export function ByAxisMojoAnimated(props: ByAxisMojoProps) {
-  return <Byline {...props} spin />
-}
-
-/** The lattu alone, spinning (see ByAxisMojoAnimated). */
-export function AxisMojoMarkAnimated({ className }: { className?: string }) {
-  return <AxisMojoMark className={className} spin />
 }
